@@ -1,0 +1,25 @@
+Nov 17 14:21:55 Router A initialization started...
+Nov 17 14:21:55 
+Nov 17 14:21:55 RouterName: A, port# 20040
+Nov 17 14:21:55 RouterName: C, port# 20030
+Nov 17 14:21:55 RouterName: B, port# 20020
+Nov 17 14:21:55 RouterName: E, port# 20010
+Nov 17 14:21:55 RouterName: D, port# 20000
+Nov 17 14:21:55 
+Nov 17 14:21:55 Neighbor: B, Link Cost: 7
+Nov 17 14:21:55 Neighbor: E, Link Cost: 1
+Nov 17 14:21:55 
+Nov 17 14:21:55 initialization...
+Nov 17 14:22:07 Router B initialization started...
+Nov 17 14:22:07 
+Nov 17 14:22:07 RouterName: A, port# 20040
+Nov 17 14:22:07 RouterName: C, port# 20030
+Nov 17 14:22:07 RouterName: B, port# 20020
+Nov 17 14:22:07 RouterName: E, port# 20010
+Nov 17 14:22:07 RouterName: D, port# 20000
+Nov 17 14:22:07 
+Nov 17 14:22:07 Neighbor: A, Link Cost: 7
+Nov 17 14:22:07 Neighbor: C, Link Cost: 1
+Nov 17 14:22:07 Neighbor: E, Link Cost: 8
+Nov 17 14:22:07 
+Nov 17 14:22:07 initialization...

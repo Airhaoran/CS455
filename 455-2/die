@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tmux send-key "exit" enter

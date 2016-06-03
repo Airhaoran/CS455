@@ -1,0 +1,11 @@
+Nov 12 23:30:31 Router initialization started...
+Nov 12 23:30:31 
+Nov 12 23:30:31 RouterName: A, port# 20040
+Nov 12 23:30:31 RouterName: C, port# 20030
+Nov 12 23:30:31 RouterName: B, port# 20020
+Nov 12 23:30:31 RouterName: E, port# 20010
+Nov 12 23:30:31 RouterName: D, port# 20000
+Nov 12 23:30:31 Neighbor: B, Link Cost: 1
+Nov 12 23:30:31 Neighbor: E, Link Cost: 2
+Nov 12 23:30:31 Router init End...
+Nov 12 23:30:31 Creating Router Connection now

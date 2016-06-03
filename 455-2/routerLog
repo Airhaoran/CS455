@@ -1,0 +1,4088 @@
+Nov 19 18:42:06 -p
+Nov 19 18:42:06 poision flag
+Nov 19 18:42:06 -p
+Nov 19 18:42:06 poision flag
+Nov 19 18:42:06 -p
+Nov 19 18:42:06 poision flag
+Nov 19 18:42:06 -p
+Nov 19 18:42:06 poision flag
+Nov 19 18:42:06 -p
+Nov 19 18:42:06 poision flag
+Nov 19 18:42:07 Router A initialization started...
+Nov 19 18:42:07 
+Nov 19 18:42:07 RouterName: A, port# 20040
+Nov 19 18:42:07 RouterName: C, port# 20030
+Nov 19 18:42:07 RouterName: B, port# 20020
+Nov 19 18:42:07 RouterName: E, port# 20010
+Nov 19 18:42:07 RouterName: D, port# 20000
+Nov 19 18:42:07 
+Nov 19 18:42:07 Neighbor: B, Link Cost: 7
+Nov 19 18:42:07 Neighbor: E, Link Cost: 1
+Nov 19 18:42:07 
+Nov 19 18:42:07 initialization...
+Nov 19 18:42:07 
+Nov 19 18:42:07 A will read from port(20041) to revc from router B
+Nov 19 18:42:07 A will read from fd(4) to recv from B
+Nov 19 18:42:07 A will write to port(20021) to send to router B
+Nov 19 18:42:07 
+Nov 19 18:42:07 
+Nov 19 18:42:07 A will read from port(20042) to revc from router E
+Nov 19 18:42:07 A will read from fd(5) to recv from E
+Nov 19 18:42:07 A will write to port(20012) to send to router E
+Nov 19 18:42:07 
+Nov 19 18:42:07 Router B initialization started...
+Nov 19 18:42:07 
+Nov 19 18:42:07 RouterName: A, port# 20040
+Nov 19 18:42:07 RouterName: C, port# 20030
+Nov 19 18:42:07 RouterName: B, port# 20020
+Nov 19 18:42:07 RouterName: E, port# 20010
+Nov 19 18:42:07 RouterName: D, port# 20000
+Nov 19 18:42:07 
+Nov 19 18:42:07 Neighbor: A, Link Cost: 7
+Nov 19 18:42:07 Neighbor: C, Link Cost: 1
+Nov 19 18:42:07 Neighbor: E, Link Cost: 8
+Nov 19 18:42:07 
+Nov 19 18:42:07 initialization...
+Nov 19 18:42:07 
+Nov 19 18:42:07 B will read from port(20021) to revc from router A
+Nov 19 18:42:07 B will read from fd(4) to recv from A
+Nov 19 18:42:07 B will write to port(20041) to send to router A
+Nov 19 18:42:07 
+Nov 19 18:42:07 
+Nov 19 18:42:07 B will read from port(20022) to revc from router C
+Nov 19 18:42:07 B will read from fd(5) to recv from C
+Nov 19 18:42:07 B will write to port(20031) to send to router C
+Nov 19 18:42:07 
+Nov 19 18:42:07 
+Nov 19 18:42:07 B will read from port(20023) to revc from router E
+Nov 19 18:42:07 B will read from fd(6) to recv from E
+Nov 19 18:42:07 B will write to port(20013) to send to router E
+Nov 19 18:42:07 
+Nov 19 18:42:07 Router C initialization started...
+Nov 19 18:42:07 
+Nov 19 18:42:07 RouterName: A, port# 20040
+Nov 19 18:42:07 RouterName: C, port# 20030
+Nov 19 18:42:07 RouterName: B, port# 20020
+Nov 19 18:42:07 RouterName: E, port# 20010
+Nov 19 18:42:07 RouterName: D, port# 20000
+Nov 19 18:42:07 
+Nov 19 18:42:07 Neighbor: B, Link Cost: 1
+Nov 19 18:42:07 Neighbor: D, Link Cost: 2
+Nov 19 18:42:07 
+Nov 19 18:42:07 initialization...
+Nov 19 18:42:07 
+Nov 19 18:42:07 C will read from port(20031) to revc from router B
+Nov 19 18:42:07 C will read from fd(4) to recv from B
+Nov 19 18:42:07 C will write to port(20022) to send to router B
+Nov 19 18:42:07 
+Nov 19 18:42:07 
+Nov 19 18:42:07 C will read from port(20032) to revc from router D
+Nov 19 18:42:07 C will read from fd(5) to recv from D
+Nov 19 18:42:07 C will write to port(20001) to send to router D
+Nov 19 18:42:07 
+Nov 19 18:42:07 Router D initialization started...
+Nov 19 18:42:07 
+Nov 19 18:42:07 RouterName: A, port# 20040
+Nov 19 18:42:07 RouterName: C, port# 20030
+Nov 19 18:42:07 RouterName: B, port# 20020
+Nov 19 18:42:07 RouterName: E, port# 20010
+Nov 19 18:42:07 RouterName: D, port# 20000
+Nov 19 18:42:07 
+Nov 19 18:42:07 Neighbor: C, Link Cost: 2
+Nov 19 18:42:07 Neighbor: E, Link Cost: 2
+Nov 19 18:42:07 
+Nov 19 18:42:07 initialization...
+Nov 19 18:42:07 
+Nov 19 18:42:07 D will read from port(20001) to revc from router C
+Nov 19 18:42:07 D will read from fd(4) to recv from C
+Nov 19 18:42:07 D will write to port(20032) to send to router C
+Nov 19 18:42:07 
+Nov 19 18:42:07 
+Nov 19 18:42:07 D will read from port(20002) to revc from router E
+Nov 19 18:42:07 D will read from fd(5) to recv from E
+Nov 19 18:42:07 D will write to port(20011) to send to router E
+Nov 19 18:42:07 
+Nov 19 18:42:07 Router E initialization started...
+Nov 19 18:42:07 
+Nov 19 18:42:07 RouterName: A, port# 20040
+Nov 19 18:42:07 RouterName: C, port# 20030
+Nov 19 18:42:07 RouterName: B, port# 20020
+Nov 19 18:42:07 RouterName: E, port# 20010
+Nov 19 18:42:07 RouterName: D, port# 20000
+Nov 19 18:42:07 
+Nov 19 18:42:07 Neighbor: A, Link Cost: 1
+Nov 19 18:42:07 Neighbor: B, Link Cost: 8
+Nov 19 18:42:07 Neighbor: D, Link Cost: 2
+Nov 19 18:42:07 
+Nov 19 18:42:07 initialization...
+Nov 19 18:42:07 
+Nov 19 18:42:07 E will read from port(20012) to revc from router A
+Nov 19 18:42:07 E will read from fd(4) to recv from A
+Nov 19 18:42:07 E will write to port(20042) to send to router A
+Nov 19 18:42:07 
+Nov 19 18:42:07 
+Nov 19 18:42:07 E will read from port(20013) to revc from router B
+Nov 19 18:42:07 E will read from fd(5) to recv from B
+Nov 19 18:42:07 E will write to port(20023) to send to router B
+Nov 19 18:42:07 
+Nov 19 18:42:07 
+Nov 19 18:42:07 E will read from port(20011) to revc from router D
+Nov 19 18:42:07 E will read from fd(6) to recv from D
+Nov 19 18:42:07 E will write to port(20002) to send to router D
+Nov 19 18:42:07 
+Nov 19 18:42:10 
+Nov 19 18:42:10 DVTable of A
+Nov 19 18:42:10 distance to A = 0 | nexthop : A
+Nov 19 18:42:10 distance to C = 64 | nexthop : None
+Nov 19 18:42:10 distance to B = 7 | nexthop : B
+Nov 19 18:42:10 distance to E = 1 | nexthop : E
+Nov 19 18:42:10 distance to D = 64 | nexthop : None
+Nov 19 18:42:10 B: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 E: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 
+Nov 19 18:42:10 
+Nov 19 18:42:10 DVTable of B
+Nov 19 18:42:10 distance to A = 7 | nexthop : A
+Nov 19 18:42:10 distance to C = 1 | nexthop : C
+Nov 19 18:42:10 distance to B = 0 | nexthop : B
+Nov 19 18:42:10 distance to E = 8 | nexthop : E
+Nov 19 18:42:10 distance to D = 64 | nexthop : None
+Nov 19 18:42:10 A: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 C: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 E: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 
+Nov 19 18:42:10 
+Nov 19 18:42:10 DVTable of C
+Nov 19 18:42:10 distance to A = 64 | nexthop : None
+Nov 19 18:42:10 distance to C = 0 | nexthop : C
+Nov 19 18:42:10 distance to B = 1 | nexthop : B
+Nov 19 18:42:10 distance to E = 64 | nexthop : None
+Nov 19 18:42:10 distance to D = 2 | nexthop : D
+Nov 19 18:42:10 B: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 D: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 
+Nov 19 18:42:10 
+Nov 19 18:42:10 DVTable of D
+Nov 19 18:42:10 distance to A = 64 | nexthop : None
+Nov 19 18:42:10 distance to C = 2 | nexthop : C
+Nov 19 18:42:10 distance to B = 64 | nexthop : None
+Nov 19 18:42:10 distance to E = 2 | nexthop : E
+Nov 19 18:42:10 distance to D = 0 | nexthop : D
+Nov 19 18:42:10 C: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 E: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 
+Nov 19 18:42:10 
+Nov 19 18:42:10 DVTable of E
+Nov 19 18:42:10 distance to A = 1 | nexthop : A
+Nov 19 18:42:10 distance to C = 64 | nexthop : None
+Nov 19 18:42:10 distance to B = 8 | nexthop : B
+Nov 19 18:42:10 distance to E = 0 | nexthop : E
+Nov 19 18:42:10 distance to D = 2 | nexthop : D
+Nov 19 18:42:10 A: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 B: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 D: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:10 
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to C = 8 | nexthop : B
+Nov 19 18:42:13 distance to B = 7 | nexthop : B
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 64 | nexthop : None
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 E: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to C = 8 | nexthop : B
+Nov 19 18:42:13 distance to B = 7 | nexthop : B
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 network init complete!
+Nov 19 18:42:13 recv'd "U A 0 C 64 B 7 E 1 D 64" from A
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 7 | nexthop : A
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 8 | nexthop : E
+Nov 19 18:42:13 distance to D = 64 | nexthop : None
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 C: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:13 E: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 7 | nexthop : A
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 8 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13Nov 19 18:42:13 E: A 64 | C 64 | B 64 | E 64 | D 64 |
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 
+ 
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+ DVTable of A
+Nov 19 18:42:13 init update
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 0 | nexthop : A
+ 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 7 | nexthop : A
+ distance to C = 8 | nexthop : B
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 0 | nexthop : B
+ distance to B = 7 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 8 | nexthop : E
+ distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : E
+ A: A 0 | C 64 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13 
+ network init complete!
+Nov 19 18:42:13Nov 19 18:42:13 reg update 3
+ recv'd "U A 0 C 64 B 7 E 1 D 64" from A
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 3" from B
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 
+ 
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of A
+ DVTable of B
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 0 | nexthop : A
+ distance to A = 7 | nexthop : A
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 1 | nexthop : C
+ distance to C = 8 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 0 | nexthop : B
+ distance to B = 7 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 8 | nexthop : E
+ distance to E = 1 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+Nov 19 18:42:13 distance to A = 8 | nexthop : B
+Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 9 | nexthop : B
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 D: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 recv'd "U A 64 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+Nov 19 18:42:13 distance to A = 8 | nexthop : B
+Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 network init complete!
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+Nov 19 18:42:13 distance to A = 8 | nexthop : B
+Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 3
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+Nov 19 18:42:13 distance to A = 8 | nexthop : B
+Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 4
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+Nov 19 18:42:13 distance to A = 8 | nexthop : B
+Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 5
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+Nov 19 18:42:13 distance to A = 8 | nexthop : B
+Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : E
+ 
+Nov 19 18:42:13 reg update 6
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+ recv'd "U A 7 C 1 B 0 E 64 D 64" from B
+Nov 19 18:42:13Nov 19 18:42:13 
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of C
+ 
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : C
+ distance to A = 8 | nexthop : B
+ reg update 4
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 0 | nexthop : C
+ recv'd "U A 7 C 1 B 0 E 8 D 3" from B
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 4 | nexthop : D
+ nothing changed
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 DVTable of A
+ D: A 64 | C 2 | B 64 | E 2 | D 0 |
+ A: A 0 | C 64 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to A = 0 | nexthop : A
+ 
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to C = 8 | nexthop : B
+ reg update 7
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 7 | nexthop : B
+ 
+Nov 19 18:42:13Nov 19 18:42:13 reg update 4
+ distance to E = 1 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 0 C 64 B 7 E 1 D 3" from A
+ distance to D = 3 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 
+ B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of B
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 distance to A = 7 | nexthop : A
+Nov 19 18:42:13Nov 19 18:42:13 
+ distance to C = 1 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 reg update 5
+ distance to B = 0 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 8 | nexthop : E
+ recv'd "U A 7 C 1 B 0 E 8 D 3" from B
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : C
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ DVTable of A
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 8 | nexthop : B
+ reg update 5
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 7 | nexthop : B
+ recv'd "U A 0 C 64 B 7 E 1 D 3" from A
+Nov 19 18:42:13Nov 19 18:42:13 nothing changed
+ distance to E = 1 | nexthop : E
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : E
+ distance to A = 7 | nexthop : A
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 1 | nexthop : C
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 0 | nexthop : B
+ 
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 8 | nexthop : E
+ reg update 6
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 0 | nexthop : A
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 distance to C = 8 | nexthop : B
+Nov 19 18:42:13 
+Nov 19 18:42:13 distance to B = 7 | nexthop : B
+Nov 19 18:42:13 reg update 6
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 1 | nexthop : E
+ recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : E
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of B
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 7 | nexthop : A
+ 
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 1 | nexthop : C
+ reg update 7
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 8 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 7
+Nov 19 18:42:13 recv'd "U A 64 C 0 B 1 E 4 D 2" from C
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 7 | nexthop : A
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 8
+Nov 19 18:42:13 recv'd "U A 0 C 64 B 7 E 1 D 3" from A
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 7 | nexthop : A
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 9
+Nov 19 18:42:13 recv'd "U A 64 C 0 B 1 E 4 D 2" from C
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 7 | nexthop : A
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 10
+Nov 19 18:42:13 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 distance to A = 64 | nexthop : None
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 64 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+Nov 19 18:42:13 distance to A = 8 | nexthop : B
+Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 8
+Nov 19 18:42:13 recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+Nov 19 18:42:13 distance to A = 5 | nexthop : D
+Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:13 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 9
+Nov 19 18:42:13 recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of C
+ E: A 64 | C 64 | B 64 | E 64 | D 64 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+ distance to A = 5 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 2 | nexthop : E
+ distance to C = 0 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 0 | nexthop : D
+ distance to B = 1 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 64 | D 64 |
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13 
+ network init complete!
+Nov 19 18:42:13Nov 19 18:42:13 reg update 10
+ recv'd "U A 8 C 0 B 1 E 9 D 2" from C
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+ 
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 3 | nexthop : E
+ DVTable of C
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 2 | nexthop : C
+ distance to A = 5 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 3 | nexthop : C
+ distance to C = 0 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 2 | nexthop : E
+ distance to B = 1 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 4 | nexthop : D
+ distance to D = 0 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 64 | D 64 |
+ C: A 8 | C 0 | B 1 | E 9 | D 2 |
+Nov 19 18:42:13 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 
+ reg update 11
+Nov 19 18:42:13Nov 19 18:42:13 reg update 3
+ recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 8 C 0 B 1 E 64 D 2" from C
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 
+ 
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of C
+ DVTable of D
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 5 | nexthop : D
+ distance to A = 3 | nexthop : E
+Nov 19 18:42:13 recv'd "U A 0 C 64 B 7 E 1 D 64" from A
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 64 | nexthop : None
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+ distance to B = 8 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 64 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13 B: A 64 | C 64 | B 64 | E 64 | D 64 |
+ DVTable of A
+Nov 19 18:42:13Nov 19 18:42:13 D: A 64 | C 64 | B 64 | E 64 | D 64 |
+ distance to A = 0 | nexthop : A
+Nov 19 18:42:13 
+Nov 19 18:42:13 distance to C = 8 | nexthop : B
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13 distance to B = 7 | nexthop : B
+Nov 19 18:42:13 init update
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 8
+Nov 19 18:42:13 recv'd "U A 1 C 9 B 8 E 0 D 2" from E
+Nov 19 18:42:13 
+ distance to C = 0 | nexthop : C
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 1 | nexthop : B
+ distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 distance to C = 9 | nexthop : B
+Nov 19 18:42:13 distance to C = 8 | nexthop : B
+ distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 8 | nexthop : B
+ B: A 7 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to E = 0 | nexthop : E
+ D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ distance to B = 7 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 2 | nexthop : D
+ 
+ distance to E = 1 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 reg update 12
+ A: A 0 | C 64 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+ 
+Nov 19 18:42:13 D: A 64 | C 64 | B 64 | E 64 | D 64 |
+ distance to E = 2 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of C
+ distance to D = 0 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 5 | nexthop : D
+ C: A 8 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 0 | nexthop : C
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 reg update 4
+ distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 8 C 0 B 1 E 64 D 2" from C
+ B: A 7 | C 1 | B 0 | E 64 | D 64 |
+ 
+ B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 nothing changed
+ D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ recv'd "U A 64 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 E: A 1 | C 9 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+ 
+ init update
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 reg update 9
+ reg update 13
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 3 | nexthop : E
+ recv'd "U A 1 C 4 B 8 E 0 D 2" from E
+ recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 2 | nexthop : C
+ nothing changed
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to B = 3 | nexthop : C
+ 
+ DVTable of A
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to E = 2 | nexthop : E
+ distance to C = 4 | nexthop : D
+ DVTable of C
+ distance to A = 0 | nexthop : A
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 0 | nexthop : D
+ distance to A = 5 | nexthop : D
+ distance to B = 8 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to C = 0 | nexthop : C
+ distance to C = 5 | nexthop : E
+ C: A 8 | C 0 | B 1 | E 64 | D 2 |
+ distance to E = 0 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to B = 7 | nexthop : B
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 4 | nexthop : D
+Nov 19 18:42:13 
+ distance to E = 1 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 reg update 5
+ B: A 7 | C 1 | B 0 | E 8 | D 64 |
+ distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+ B: A 7 | C 1 | B 0 | E 64 | D 64 |
+ D: A 64 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13Nov 19 18:42:13 E: A 1 | C 4 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 
+ D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of D
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 reg update 10
+ reg update 14
+ distance to A = 3 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 network init complete!
+ recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 8 E 0 D 2" from E
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 0 C 8 B 7 E 1 D 64" from A
+ nothing changed
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 
+ recv'd "U A 0 C 64 B 7 E 1 D 3" from A
+ 
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 DVTable of C
+ nothing changed
+ DVTable of E
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 0 | nexthop : D
+ 
+ distance to A = 5 | nexthop : D
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ DVTable of B
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 4 | nexthop : D
+ distance to C = 0 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 5 | nexthop : E
+Nov 19 18:42:13 distance to A = 7 | nexthop : A
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 8 | nexthop : B
+ distance to B = 1 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 7 | nexthop : B
+ distance to C = 1 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 distance to E = 4 | nexthop : D
+ distance to E = 0 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 1 | nexthop : E
+ distance to B = 0 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13 reg update 6
+ distance to D = 2 | nexthop : D
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : E
+ distance to E = 5 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ B: A 7 | C 1 | B 0 | E 5 | D 3 |
+ recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 E: A 1 | C 4 | B 8 | E 0 | D 2 |
+ nothing changed
+Nov 19 18:42:13 D: A 64 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 reg update 15
+Nov 19 18:42:13Nov 19 18:42:13 
+ 
+ 
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:42:13Nov 19 18:42:13 reg update 11
+ DVTable of D
+ 
+Nov 19 18:42:13 reg update 4
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 reg update 11
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 64" from B
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+ DVTable of C
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 5 C 0 B 1 E 4 D 2" from C
+Nov 19 18:42:13 nothing changed
+ distance to C = 2 | nexthop : C
+ distance to A = 5 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 
+ distance to C = 0 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 1 | nexthop : B
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+ distance to A = 6 | nexthop : C
+ distance to E = 4 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:13 distance to C = 5 | nexthop : E
+ distance to C = 1 | nexthop : C
+ distance to A = 1 | nexthop : A
+ distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to B = 6 | nexthop : E
+ distance to B = 0 | nexthop : B
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 5 | nexthop : C
+ distance to E = 1 | nexthop : E
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+ distance to C = 4 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : E
+ distance to D = 3 | nexthop : C
+ 
+ distance to B = 8 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+ D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ A: A 0 | C 64 | B 7 | E 1 | D 3 |
+ reg update 7
+ distance to E = 0 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 
+ C: A 5 | C 0 | B 1 | E 4 | D 2 |
+ E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ recv'd "U A 1 C 9 B 8 E 0 D 2" from E
+ distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+ reg update 16
+Nov 19 18:42:13 
+ 
+Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 
+ recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:42:13 reg update 12
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+ reg update 12
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+ D: A 64 | C 2 | B 64 | E 2 | D 0 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+ DVTable of C
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to B = 3 | nexthop : C
+ 
+Nov 19 18:42:13 reg update 5
+ distance to A = 5 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of B
+ distance to E = 2 | nexthop : E
+ distance to C = 0 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+ distance to D = 0 | nexthop : D
+ distance to B = 1 | nexthop : B
+ recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to A = 0 | nexthop : A
+ distance to C = 1 | nexthop : C
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to B = 0 | nexthop : B
+ distance to C = 5 | nexthop : E
+ distance to E = 4 | nexthop : D
+Nov 19 18:42:13 E: A 1 | C 9 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+ 
+ distance to A = 1 | nexthop : A
+ distance to B = 6 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 reg update 8
+ B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+ D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 
+ 
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+ distance to E = 0 | nexthop : E
+Nov 19 18:42:13 reg update 17
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+ E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 DVTable of D
+ 
+Nov 19 18:42:13Nov 19 18:42:13 nothing changed
+ A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 64 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 reg update 13
+ distance to C = 2 | nexthop : C
+ reg update 13
+ DVTable of C
+Nov 19 18:42:13Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+ distance to A = 5 | nexthop : D
+ recv'd "U A 0 C 5 B 7 E 1 D 3" from A
+ distance to B = 3 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 nothing changed
+ 
+ distance to C = 0 | nexthop : C
+ distance to E = 2 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 reg update 6
+Nov 19 18:42:13 DVTable of B
+ distance to B = 1 | nexthop : B
+ 
+ distance to D = 0 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 0 C 8 B 7 E 1 D 64" from A
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of A
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ distance to E = 4 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 0 | nexthop : A
+ distance to A = 6 | nexthop : C
+ distance to D = 2 | nexthop : D
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+ distance to C = 5 | nexthop : E
+ B: A 64 | C 1 | B 0 | E 64 | D 64 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 DVTable of E
+ distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to B = 6 | nexthop : E
+ D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ reg update 9
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 
+ distance to E = 1 | nexthop : E
+ recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 reg update 18
+ distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 5 | B 7 | E 1 | D 3 |
+ recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 2 | nexthop : D
+ 
+ 
+ DVTable of D
+ DVTable of C
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+ reg update 14
+ reg update 14
+ distance to A = 3 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 1 C 64 B 8 E 0 D 2" from E
+ distance to A = 5 | nexthop : D
+ B: A 7 | C 1 | B 0 | E 8 | D 64 |
+ distance to C = 2 | nexthop : C
+ recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to C = 0 | nexthop : C
+ distance to B = 3 | nexthop : C
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+ nothing changed
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 
+ distance to E = 2 | nexthop : E
+ 
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 reg update 7
+ distance to D = 0 | nexthop : D
+ DVTable of A
+ distance to E = 4 | nexthop : D
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 3" from B
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ distance to A = 6 | nexthop : C
+ distance to A = 0 | nexthop : A
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 
+ E: A 1 | C 64 | B 8 | E 0 | D 2 |
+ distance to C = 5 | nexthop : E
+ distance to C = 1 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of E
+ 
+ distance to B = 0 | nexthop : B
+ distance to B = 6 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to A = 1 | nexthop : A
+ distance to E = 5 | nexthop : C
+ reg update 10
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to C = 4 | nexthop : D
+ distance to D = 3 | nexthop : C
+Nov 19 18:42:13 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+ distance to D = 3 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 5 | B 7 | E 1 | D 3 |
+ distance to B = 5 | nexthop : D
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+ reg update 19
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 nothing changed
+ 
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+ 
+Nov 19 18:42:13 reg update 15
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+ reg update 15
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 DVTable of C
+ B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+ recv'd "U A 0 C 5 B 6 E 1 D 3" from A
+ distance to B = 3 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 5 | nexthop : D
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 distance to C = 0 | nexthop : C
+Nov 19 18:42:13 nothing changed
+ 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:13 distance to B = 1 | nexthop : B
+ reg update 8
+ 
+Nov 19 18:42:13Nov 19 18:42:13 distance to A = 6 | nexthop : C
+ distance to E = 4 | nexthop : D
+Nov 19 18:42:13Nov 19 18:42:13 DVTable of A
+ recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 2 | nexthop : D
+ distance to A = 0 | nexthop : A
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+ distance to C = 1 | nexthop : C
+Nov 19 18:42:13Nov 19 18:42:13 
+ distance to C = 5 | nexthop : E
+Nov 19 18:42:13Nov 19 18:42:13 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+ D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ distance to B = 0 | nexthop : B
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13Nov 19 18:42:13 distance to B = 6 | nexthop : E
+ 
+ distance to E = 5 | nexthop : C
+ 
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to A = 1 | nexthop : A
+ distance to E = 1 | nexthop : E
+ reg update 11
+ reg update 20
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 distance to D = 3 | nexthop : C
+ distance to D = 3 | nexthop : E
+ distance to C = 4 | nexthop : D
+ recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+ B: A 7 | C 1 | B 0 | E 5 | D 3 |
+ distance to B = 5 | nexthop : D
+ nothing changed
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+ E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ distance to E = 0 | nexthop : E
+ 
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 12
+Nov 19 18:42:13 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 13
+Nov 19 18:42:13Nov 19 18:42:13Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 16
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to C = 5 | nexthop : E
+Nov 19 18:42:13 distance to B = 6 | nexthop : E
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 17
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to C = 5 | nexthop : E
+Nov 19 18:42:13 distance to B = 6 | nexthop : E
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 18
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to C = 5 | nexthop : E
+Nov 19 18:42:13 distance to B = 6 | nexthop : E
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 19
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to C = 5 | nexthop : E
+Nov 19 18:42:13 distance to B = 6 | nexthop : E
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 20
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to C = 5 | nexthop : E
+Nov 19 18:42:13 distance to B = 6 | nexthop : E
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 21
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of A
+Nov 19 18:42:13 distance to A = 0 | nexthop : A
+Nov 19 18:42:13 distance to C = 5 | nexthop : E
+Nov 19 18:42:13 distance to B = 6 | nexthop : E
+Nov 19 18:42:13 distance to E = 1 | nexthop : E
+Nov 19 18:42:13 distance to D = 3 | nexthop : E
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 22
+ recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 E: A 1 | C 64 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 16
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 8 E 0 D 2" from E
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 17
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 8 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 8 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 18
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 19
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 20
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 21
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 22
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 23
+Nov 19 18:42:13 recv'd "U A 0 C 5 B 6 E 1 D 3" from A
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 24
+Nov 19 18:42:13 recv'd "U A 5 C 0 B 1 E 4 D 2" from C
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 25
+Nov 19 18:42:13 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of B
+Nov 19 18:42:13 distance to A = 6 | nexthop : C
+Nov 19 18:42:13 distance to C = 1 | nexthop : C
+Nov 19 18:42:13 distance to B = 0 | nexthop : B
+Nov 19 18:42:13 distance to E = 5 | nexthop : C
+Nov 19 18:42:13 distance to D = 3 | nexthop : C
+Nov 19 18:42:13 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:13 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:13 
+ 
+Nov 19 18:42:13Nov 19 18:42:13 reg update 26
+ DVTable of D
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 14
+Nov 19 18:42:13 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13Nov 19 18:42:13 reg update 15
+Nov 19 18:42:13 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 9
+Nov 19 18:42:13 recv'd "U A 0 C 8 B 7 E 1 D 64" from A
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 10
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 11
+Nov 19 18:42:13 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 12
+Nov 19 18:42:13 recv'd "U A 0 C 8 B 7 E 1 D 64" from A
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 13
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 8 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 14
+Nov 19 18:42:13 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 8 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 15
+Nov 19 18:42:13 recv'd "U A 7 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 16
+Nov 19 18:42:13 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 17
+Nov 19 18:42:13 recv'd "U A 0 C 8 B 7 E 1 D 64" from A
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 8 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 18
+Nov 19 18:42:13 recv'd "U A 0 C 64 B 7 E 1 D 64" from A
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 7 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 19
+Nov 19 18:42:13 recv'd "U A 0 C 64 B 64 E 1 D 64" from A
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 20
+Nov 19 18:42:13 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 21
+Nov 19 18:42:13 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 22
+Nov 19 18:42:13 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 7 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 23
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 
+Nov 19 18:42:1 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:133 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 24
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 25
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 26
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 27
+Nov 19 18:42:13 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 28
+Nov 19 18:42:13 recv'd "U A 0 C 64 B 64 E 1 D 64" from A
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of E
+Nov 19 18:42:13 distance to A = 1 | nexthop : A
+Nov 19 18:42:13 distance to C = 4 | nexthop : D
+Nov 19 18:42:13 distance to B = 5 | nexthop : D
+Nov 19 18:42:13 distance to E = 0 | nexthop : E
+Nov 19 18:42:13 distance to D = 2 | nexthop : D
+Nov 19 18:42:13 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:42:13 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:13 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 29
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 16
+Nov 19 18:42:13 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:13 nothing changed
+Nov 19 18:42:13 
+Nov 19 18:42:13 DVTable of D
+Nov 19 18:42:13 distance to A = 3 | nexthop : E
+Nov 19 18:42:13 distance to C = 2 | nexthop : C
+Nov 19 18:42:13 distance to B = 3 | nexthop : C
+Nov 19 18:42:13 distance to E = 2 | nexthop : E
+Nov 19 18:42:13 distance to D = 0 | nexthop : D
+Nov 19 18:42:13 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:13 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:13 
+Nov 19 18:42:13 reg update 17
+Nov 19 18:42:38 recv'd "L B 6" from 
+Nov 19 18:42:38 new between me (A) and B is now 6
+Nov 19 18:42:38 nothing changed
+Nov 19 18:42:38 
+Nov 19 18:42:38 DVTable of A
+Nov 19 18:42:38 distance to A = 0 | nexthop : A
+Nov 19 18:42:38 distance to C = 5 | nexthop : E
+Nov 19 18:42:38 distance to B = 6 | nexthop : E
+Nov 19 18:42:38 distance to E = 1 | nexthop : E
+Nov 19 18:42:38 distance to D = 3 | nexthop : E
+Nov 19 18:42:38 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:38 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:38 
+Nov 19 18:42:38 recv'd "L A 6" from 
+Nov 19 18:42:38 new between me (B) and A is now 6
+Nov 19 18:42:38 nothing changed
+Nov 19 18:42:38 
+Nov 19 18:42:38 DVTable of B
+Nov 19 18:42:38 distance to A = 6 | nexthop : C
+Nov 19 18:42:38 distance to C = 1 | nexthop : C
+Nov 19 18:42:38 distance to B = 0 | nexthop : B
+Nov 19 18:42:38 distance to E = 5 | nexthop : C
+Nov 19 18:42:38 distance to D = 3 | nexthop : C
+Nov 19 18:42:38 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:42:38 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:38 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:38 
+Nov 19 18:42:50 recv'd "L B 5" from 
+Nov 19 18:42:50 new between me (A) and B is now 5
+Nov 19 18:42:50 neighbor: B 
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of A
+Nov 19 18:42:50 distance to A = 0 | nexthop : A
+Nov 19 18:42:50 distance to C = 5 | nexthop : E
+Nov 19 18:42:50 distance to B = 5 | nexthop : B
+Nov 19 18:42:50 distance to E = 1 | nexthop : E
+Nov 19 18:42:50 distance to D = 3 | nexthop : E
+Nov 19 18:42:50 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:50 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:50 
+Nov 19 18:42:50 recv'd "U A 0 C 5 B 5 E 1 D 3" from A
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of B
+Nov 19 18:42:50 distance to A = 6 | nexthop : C
+Nov 19 18:42:50 distance to C = 1 | nexthop : C
+Nov 19 18:42:50 distance to B = 0 | nexthop : B
+Nov 19 18:42:50 distance to E = 5 | nexthop : C
+Nov 19 18:42:50 distance to D = 3 | nexthop : C
+Nov 19 18:42:50 A: A 0 | C 5 | B 5 | E 1 | D 3 |
+Nov 19 18:42:50 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:50 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:50 
+Nov 19 18:42:50 reg update 27
+Nov 19 18:42:50 recv'd "U A 0 C 64 B 5 E 1 D 64" from A
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of E
+Nov 19 18:42:50 distance to A = 1 | nexthop : A
+Nov 19 18:42:50 distance to C = 4 | nexthop : D
+Nov 19 18:42:50 distance to B = 5 | nexthop : D
+Nov 19 18:42:50 distance to E = 0 | nexthop : E
+Nov 19 18:42:50 distance to D = 2 | nexthop : D
+Nov 19 18:42:50 A: A 0 | C 64 | B 5 | E 1 | D 64 |
+Nov 19 18:42:50 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:50 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:50 
+Nov 19 18:42:50 reg update 30
+Nov 19 18:42:50 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:50 nothing changed
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of E
+Nov 19 18:42:50 distance to A = 1 | nexthop : A
+Nov 19 18:42:50 distance to C = 4 | nexthop : D
+Nov 19 18:42:50 distance to B = 5 | nexthop : D
+Nov 19 18:42:50 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:42:50 nothing changed
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of C
+Nov 19 18:42:50 distance to A = 5 | nexthop : D
+Nov 19 18:42:50 distance to C = 0 | nexthop : C
+Nov 19 18:42:50 distance to B = 1 | nexthop : B
+Nov 19 18:42:50 distance to E = 4 | nexthop : D
+Nov 19 18:42:50 distance to D = 2 | nexthop : D
+Nov 19 18:42:50 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:50 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:50 
+Nov 19 18:42:50 reg update 21
+Nov 19 18:42:50 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:50 nothing changed
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of D
+Nov 19 18:42:50 distance to A = 3 | nexthop : E
+Nov 19 18:42:50 distance to C = 2 | nexthop : C
+Nov 19 18:42:50 distance to B = 3 | nexthop : C
+Nov 19 18:42:50 distance to E = 2 | nexthop : E
+Nov 19 18:42:50 distance to D = 0 | nexthop : D
+Nov 19 18:42:50 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:50 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:50 
+Nov 19 18:42:50 reg update 18
+Nov 19 18:42:50 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:42:50 nothing changed
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of B
+Nov 19 18:42:50 distance to A = 6 | nexthop : C
+Nov 19 18:42:50 distance to C = 1 | nexthop : C
+Nov 19 18:42:50Nov 19 18:42:50 distance to B = 0 | nexthop : B
+ distance to E = 0 | nexthop : E
+Nov 19 18:42:50 distance to E = 5 | nexthop : C
+Nov 19 18:42:50 distance to D = 2 | nexthop : D
+Nov 19 18:42:50 distance to D = 3 | nexthop : C
+Nov 19 18:42:50Nov 19 18:42:50 A: A 0 | C 64 | B 5 | E 1 | D 64 |
+ A: A 0 | C 5 | B 5 | E 1 | D 3 |
+Nov 19 18:42:50Nov 19 18:42:50 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+ C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:50Nov 19 18:42:50 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:50Nov 19 18:42:50 
+ 
+Nov 19 18:42:50Nov 19 18:42:50 reg update 28
+ reg update 31
+Nov 19 18:42:50 recv'd "U A 5 C 1 B 0 E 64 D 64" from B
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of C
+Nov 19 18:42:50 distance to A = 5 | nexthop : D
+Nov 19 18:42:50 distance to C = 0 | nexthop : C
+Nov 19 18:42:50 distance to B = 1 | nexthop : B
+Nov 19 18:42:50 distance to E = 4 | nexthop : D
+Nov 19 18:42:50 distance to D = 2 | nexthop : D
+Nov 19 18:42:50 B: A 5 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:50 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:50 
+Nov 19 18:42:50 reg update 22
+Nov 19 18:42:50 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:42:50 nothing changed
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of D
+Nov 19 18:42:50 distance to A = 3 | nexthop : E
+Nov 19 18:42:50 distance to C = 2 | nexthop : C
+Nov 19 18:42:50 distance to B = 3 | nexthop : C
+Nov 19 18:42:50 distance to E = 2 | nexthop : E
+Nov 19 18:42:50 distance to D = 0 | nexthop : D
+Nov 19 18:42:50 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:50 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:50 
+Nov 19 18:42:50 reg update 19
+Nov 19 18:42:50 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:50 nothing changed
+Nov 19 18:42:50 
+Nov 19 18:42:50 DVTable of D
+Nov 19 18:42:50 distance to A = 3 | nexthop : E
+Nov 19 18:42:50 distance to C = 2 | nexthop : C
+Nov 19 18:42:50 distance to B = 3 | nexthop : C
+Nov 19 18:42:50 distance to E = 2 | nexthop : E
+Nov 19 18:42:50 distance to D = 0 | nexthop : D
+Nov 19 18:42:50Nov 19 18:42:50Nov 19 18:42:50 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ recv'd "L A 5" from 
+ recv'd "U A 5 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:50Nov 19 18:42:50Nov 19 18:42:50 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+ new between me (B) and A is now 5
+ 
+Nov 19 18:42:50Nov 19 18:42:50Nov 19 18:42:50 
+ neighbor: A 
+ DVTable of E
+Nov 19 18:42:50Nov 19 18:42:50 reg update 20
+ 
+Nov 19 18:42:50Nov 19 18:42:50 DVTable of B
+ distance to A = 1 | nexthop : A
+Nov 19 18:42:50Nov 19 18:42:50 distance to A = 5 | nexthop : A
+ distance to C = 4 | nexthop : D
+Nov 19 18:42:50Nov 19 18:42:50 distance to C = 1 | nexthop : C
+ distance to B = 5 | nexthop : D
+Nov 19 18:42:50Nov 19 18:42:50 distance to B = 0 | nexthop : B
+ distance to E = 0 | nexthop : E
+Nov 19 18:42:50Nov 19 18:42:50 distance to E = 5 | nexthop : C
+ distance to D = 2 | nexthop : D
+Nov 19 18:42:50 distance to D = 3 | nexthop : C
+Nov 19 18:42:50 A: A 0 | C 64 | B 5 | E 1 | D 64 |
+Nov 19 18:42:50 A: A 0 | C 5 | B 5 | E 1 | D 3 |
+Nov 19 18:42:50 B: A 5 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:50 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:50Nov 19 18:42:50 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:50Nov 19 18:42:50 
+ 
+Nov 19 18:42:50 reg update 32
+Nov 19 18:42:57 recv'd "L B 56" from 
+Nov 19 18:42:57 new between me (A) and B is now 56
+Nov 19 18:42:57 neighbor: B 
+Nov 19 18:42:57 
+Nov 19 18:42:57 DVTable of A
+Nov 19 18:42:57 distance to A = 0 | nexthop : A
+Nov 19 18:42:57 distance to C = 5 | nexthop : E
+Nov 19 18:42:57 distance to B = 56 | nexthop : B
+Nov 19 18:42:57 distance to E = 1 | nexthop : E
+Nov 19 18:42:57 distance to D = 3 | nexthop : E
+Nov 19 18:42:57 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:57 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:57 
+Nov 19 18:42:57 recv'd "U A 0 C 64 B 56 E 1 D 64" from A
+Nov 19 18:42:57 
+Nov 19 18:42:57 DVTable of E
+Nov 19 18:42:57 distance to A = 1 | nexthop : A
+Nov 19 18:42:57 distance to C = 4 | nexthop : D
+Nov 19 18:42:57 distance to B = 5 | nexthop : D
+Nov 19 18:42:57 distance to E = 0 | nexthop : E
+Nov 19 18:42:57 distance to D = 2 | nexthop : D
+Nov 19 18:42:57 A: A 0 | C 64 | B 56 | E 1 | D 64 |
+Nov 19 18:42:57 B: A 5 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:57 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:57 
+Nov 19 18:42:57 reg update 33
+Nov 19 18:42:57 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:57 nothing changed
+Nov 19 18:42:57 
+Nov 19 18:42:57 DVTable of D
+Nov 19 18:42:57 distance to A = 3 | nexthop : E
+Nov 19 18:42:57 distance to C = 2 | nexthop : C
+Nov 19 18:42:57 distance to B = 3 | nexthop : C
+Nov 19 18:42:57 distance to E = 2 | nexthop : E
+Nov 19 18:42:57 distance to D = 0 | nexthop : D
+Nov 19 18:42:57 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:57 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:57 
+Nov 19 18:42:57 reg update 21
+Nov 19 18:42:57 recv'd "L A 56" from 
+Nov 19 18:42:57 new between me (B) and A is now 56
+Nov 19 18:42:57 neighbor: A 
+Nov 19 18:42:57 
+Nov 19 18:42:57 DVTable of B
+Nov 19 18:42:57 distance to A = 56 | nexthop : A
+Nov 19 18:42:57 distance to C = 1 | nexthop : C
+Nov 19 18:42:57 distance to B = 0 | nexthop : B
+Nov 19 18:42:57 distance to E = 5 | nexthop : C
+Nov 19 18:42:57 distance to D = 3 | nexthop : C
+Nov 19 18:42:57 A: A 0 | C 5 | B 5 | E 1 | D 3 |
+Nov 19 18:42:57 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:42:57 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:42:57 
+Nov 19 18:42:57 recv'd "U A 56 C 1 B 0 E 64 D 64" from B
+Nov 19 18:42:57 
+Nov 19 18:42:57 DVTable of C
+Nov 19 18:42:57 distance to A = 5 | nexthop : D
+Nov 19 18:42:57 distance to C = 0 | nexthop : C
+Nov 19 18:42:57 distance to B = 1 | nexthop : B
+Nov 19 18:42:57 distance to E = 4 | nexthop : D
+Nov 19 18:42:57 distance to D = 2 | nexthop : D
+Nov 19 18:42:57 B: A 56 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:42:57 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:42:57 
+Nov 19 18:42:57 reg update 23
+Nov 19 18:42:57 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:42:57 nothing changed
+Nov 19 18:42:57 
+Nov 19 18:42:57 DVTable of D
+Nov 19 18:42:57 distance to A = 3 | nexthop : E
+Nov 19 18:42:57 distance to C = 2 | nexthop : C
+Nov 19 18:42:57 distance to B = 3 | nexthop : C
+Nov 19 18:42:57 distance to E = 2 | nexthop : E
+Nov 19 18:42:57 distance to D = 0 | nexthop : D
+Nov 19 18:42:57 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:57 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:57 
+Nov 19 18:42:57 reg update 22
+Nov 19 18:42:57 recv'd "U A 56 C 1 B 0 E 5 D 3" from B
+Nov 19 18:42:57 
+Nov 19 18:42:57 DVTable of E
+Nov 19 18:42:57 distance to A = 1 | nexthop : A
+Nov 19 18:42:57 distance to C = 4 | nexthop : D
+Nov 19 18:42:57 distance to B = 5 | nexthop : D
+Nov 19 18:42:57 distance to E = 0 | nexthop : E
+Nov 19 18:42:57 distance to D = 2 | nexthop : D
+Nov 19 18:42:57 A: A 0 | C 64 | B 56 | E 1 | D 64 |
+Nov 19 18:42:57 B: A 56 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:42:57 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:42:57 
+Nov 19 18:42:57 reg update 34
+Nov 19 18:42:57 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:42:57 nothing changed
+Nov 19 18:42:57 
+Nov 19 18:42:57 DVTable of D
+Nov 19 18:42:57 distance to A = 3 | nexthop : E
+Nov 19 18:42:57 distance to C = 2 | nexthop : C
+Nov 19 18:42:57 distance to B = 3 | nexthop : C
+Nov 19 18:42:57 distance to E = 2 | nexthop : E
+Nov 19 18:42:57 distance to D = 0 | nexthop : D
+Nov 19 18:42:57 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:42:57 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:42:57 
+Nov 19 18:42:57 reg update 23
+Nov 19 18:43:04 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 recv'd "U A 0 C 64 B 64 E 1 D 64" from A
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of E
+Nov 19 18:43:04 distance to A = 1 | nexthop : A
+Nov 19 18:43:04 distance to C = 4 | nexthop : D
+Nov 19 18:43:04 distance to B = 5 | nexthop : D
+Nov 19 18:43:04 distance to E = 0 | nexthop : E
+Nov 19 18:43:04 distance to D = 2 | nexthop : D
+Nov 19 18:43:04 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:04 B: A 56 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 35
+Nov 19 18:43:04 recv'd "U A 0 C 64 B 64 E 1 D 64" from A
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of E
+Nov 19 18:43:04 distance to A = 1 | nexthop : A
+Nov 19 18:43:04 distance to C = 4 | nexthop : D
+Nov 19 18:43:04 distance to B = 5 | nexthop : D
+Nov 19 18:43:04 distance to E = 0 | nexthop : E
+Nov 19 18:43:04 distance to D = 2 | nexthop : D
+Nov 19 18:43:04 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of D
+Nov 19 18:43:04 distance to A = 3 | nexthop : E
+Nov 19 18:43:04 distance to C = 2 | nexthop : C
+Nov 19 18:43:04 distance to B = 3 | nexthop : C
+Nov 19 18:43:04 distance to E = 2 | nexthop : E
+Nov 19 18:43:04 distance to D = 0 | nexthop : D
+Nov 19 18:43:04 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 24
+Nov 19 18:43:04Nov 19 18:43:04 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:04 B: A 56 | C 1 | B 0 | E 5 | D 3 |
+ DVTable of A
+Nov 19 18:43:04 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04Nov 19 18:43:04 
+ distance to C = 5 | nexthop : E
+Nov 19 18:43:04Nov 19 18:43:04 reg update 36
+ distance to B = 56 | nexthop : B
+Nov 19 18:43:04 distance to E = 1 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : E
+Nov 19 18:43:04 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 23
+Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of A
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04 distance to C = 5 | nexthop : E
+Nov 19 18:43:04 distance to B = 56 | nexthop : B
+Nov 19 18:43:04 distance to E = 1 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : E
+Nov 19 18:43:04 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 24
+Nov 19 18:43:04 recv'd "U A 5 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of A
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04 distance to C = 5 | nexthop : E
+Nov 19 18:43:04 distance to B = 6 | nexthop : E
+Nov 19 18:43:04 distance to E = 1 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : E
+Nov 19 18:43:04 B: A 5 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 25
+Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of A
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04 distance to C = 5 | nexthop : E
+Nov 19 18:43:04 distance to B = 6 | nexthop : E
+Nov 19 18:43:04 distance to E = 1 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : E
+Nov 19 18:43:04 B: A 5 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 26
+Nov 19 18:43:04 recv'd "U A 56 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of A
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04 distance to C = 5 | nexthop : E
+Nov 19 18:43:04 distance to B = 6 | nexthop : E
+Nov 19 18:43:04 distance to E = 1 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : E
+Nov 19 18:43:04 B: A 56 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 27
+Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of A
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04 distance to C = 5 | nexthop : E
+Nov 19 18:43:04 distance to B = 6 | nexthop : E
+Nov 19 18:43:04 distance to E = 1 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : E
+Nov 19 18:43:04 B: A 56 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 28
+Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of A
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04 distance to C = 5 | nexthop : E
+Nov 19 18:43:04 distance to B = 6 | nexthop : E
+Nov 19 18:43:04 distance to E = 1 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : E
+Nov 19 18:43:04 B: A 56 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 29
+Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of A
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04 distance to C = 5 | nexthop : E
+Nov 19 18:43:04 distance to B = 6 | nexthop : E
+Nov 19 18:43:04 distance to E = 1 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : E
+Nov 19 18:43:04 B: A 56 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 30
+Nov 19 18:43:04 recv'd "U A 0 C 5 B 56 E 1 D 3" from A
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of C
+Nov 19 18:43:04 distance to A = 5 | nexthop : D
+Nov 19 18:43:04 distance to C = 0 | nexthop : C
+Nov 19 18:43:04 distance to B = 1 | nexthop : B
+Nov 19 18:43:04 distance to E = 4 | nexthop : D
+Nov 19 18:43:04 distance to D = 2 | nexthop : D
+Nov 19 18:43:04 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:04 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 24
+Nov 19 18:43:04 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of C
+Nov 19 18:43:04 distance to A = 5 | nexthop : D
+Nov 19 18:43:04 distance to C = 0 | nexthop : C
+Nov 19 18:43:04 distance to B = 1 | nexthop : B
+Nov 19 18:43:04 distance to E = 4 | nexthop : D
+Nov 19 18:43:04 distance to D = 2 | nexthop : D
+Nov 19 18:43:04 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:04 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of E
+Nov 19 18:43:04 distance to A = 1 | nexthop : A
+Nov 19 18:43:04 distance to C = 4 | nexthop : D
+Nov 19 18:43:04 distance to B = 5 | nexthop : D
+Nov 19 18:43:04 distance to E = 0 | nexthop : E
+Nov 19 18:43:04 distance to D = 2 | nexthop : D
+Nov 19 18:43:04 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:04 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 37
+Nov 19 18:43:04 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of E
+Nov 19 18:43:04 distance to A = 1 | nexthop : A
+Nov 19 18:43:04 distance to C = 4 | nexthop : D
+Nov 19 18:43:04 distance to B = 5 | nexthop : D
+Nov 19 18:43:04 distance to E = 0 | nexthop : E
+Nov 19 18:43:04Nov 19 18:43:04 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of D
+Nov 19 18:43:04 distance to A = 3 | nexthop : E
+Nov 19 18:43:04 distance to C = 2 | nexthop : C
+Nov 19 18:43:04 distance to B = 3 | nexthop : C
+Nov 19 18:43:04 distance to E = 2 | nexthop : E
+Nov 19 18:43:04 distance to D = 0 | nexthop : D
+Nov 19 18:43:04 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 25
+Nov 19 18:43:04 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of D
+Nov 19 18:43:04 distance to A = 3 | nexthop : E
+Nov 19 18:43:04 distance to C = 2 | nexthop : C
+Nov 19 18:43:04 distance to B = 3 | nexthop : C
+Nov 19 18:43:04 distance to E = 2 | nexthop : E
+Nov 19 18:43:04 distance to D = 0 | nexthop : D
+Nov 19 18:43:04 distance to D = 2 | nexthop : D
+Nov 19 18:43:04Nov 19 18:43:04 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:04Nov 19 18:43:04 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:04 
+ E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:04Nov 19 18:43:04 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 reg update 25
+ 
+Nov 19 18:43:04 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:04 reg update 26
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+ 
+Nov 19 18:43:04Nov 19 18:43:04 A: A 0 | C 5 | B 56 | E 1 | D 3 |
+ reg update 38
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 29
+Nov 19 18:43:04 recv'd "U A 5 C 0 B 1 E 4 D 2" from C
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04 A: A 0 | C 5 | B 56 | E 1 | D 3 |
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 30
+Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04 A: A 0 | C 5 | B 56 | E 1 | D 3 |
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 31
+Nov 19 18:43:04 recv'd "U A 0 C 5 B 6 E 1 D 3" from A
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04 recv'd "U A 0 C 64 B 64 E 1 D 64" from A
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of E
+Nov 19 18:43:04 distance to A = 1 | nexthop : A
+Nov 19 18:43:04 distance to C = 4 | nexthop : D
+Nov 19 18:43:04 distance to B = 5 | nexthop : D
+Nov 19 18:43:04 distance to E = 0 | nexthop : E
+Nov 19 18:43:04 distance to D = 2 | nexthop : D
+Nov 19 18:43:04 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:04 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 39
+Nov 19 18:43:04 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 32
+Nov 19 18:43:04 recv'd "U A 5 C 0 B 1 E 4 D 2" from C
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04Nov 19 18:43:04 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+ DVTable of B
+Nov 19 18:43:04Nov 19 18:43:04 distance to A = 6 | nexthop : C
+ 
+Nov 19 18:43:04Nov 19 18:43:04 distance to C = 1 | nexthop : C
+ DVTable of A
+Nov 19 18:43:04 distance to A = 0 | nexthop : A
+Nov 19 18:43:04Nov 19 18:43:04 distance to B = 0 | nexthop : B
+ distance to C = 5 | nexthop : E
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to B = 6 | nexthop : E
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04Nov 19 18:43:04 distance to E = 1 | nexthop : E
+ A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:04Nov 19 18:43:04 distance to D = 3 | nexthop : E
+ C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+ 
+Nov 19 18:43:04Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ reg update 33
+Nov 19 18:43:04Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+ 
+Nov 19 18:43:04Nov 19 18:43:04 nothing changed
+ reg update 31
+Nov 19 18:43:04Nov 19 18:43:04 
+ recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04Nov 19 18:43:04 distance to A = 6 | nexthop : C
+ nothing changed
+Nov 19 18:43:04Nov 19 18:43:04 distance to C = 1 | nexthop : C
+ 
+Nov 19 18:43:04Nov 19 18:43:04 distance to B = 0 | nexthop : B
+ DVTable of A
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04Nov 19 18:43:04 distance to A = 0 | nexthop : A
+ distance to D = 3 | nexthop : C
+Nov 19 18:43:04 distance to C = 5 | nexthop : E
+Nov 19 18:43:04 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:04Nov 19 18:43:04 distance to B = 6 | nexthop : E
+ C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04Nov 19 18:43:04 distance to E = 1 | nexthop : E
+ E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04Nov 19 18:43:04 
+ distance to D = 3 | nexthop : E
+Nov 19 18:43:04Nov 19 18:43:04 reg update 34
+ B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04 recv'd "U A 0 C 5 B 6 E 1 D 3" from A
+Nov 19 18:43:04Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ nothing changed
+Nov 19 18:43:04Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 32
+ 
+Nov 19 18:43:04Nov 19 18:43:04 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+ DVTable of B
+Nov 19 18:43:04Nov 19 18:43:04 distance to A = 6 | nexthop : C
+ nothing changed
+Nov 19 18:43:04Nov 19 18:43:04 distance to C = 1 | nexthop : C
+ 
+Nov 19 18:43:04Nov 19 18:43:04 distance to B = 0 | nexthop : B
+ DVTable of A
+Nov 19 18:43:04Nov 19 18:43:04 distance to E = 5 | nexthop : C
+ distance to A = 0 | nexthop : A
+Nov 19 18:43:04Nov 19 18:43:04 distance to D = 3 | nexthop : C
+ distance to C = 5 | nexthop : E
+Nov 19 18:43:04Nov 19 18:43:04 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+ distance to B = 6 | nexthop : E
+Nov 19 18:43:04Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+ distance to E = 1 | nexthop : E
+Nov 19 18:43:04Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ distance to D = 3 | nexthop : E
+Nov 19 18:43:04 
+Nov 19 18:43:04 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:04Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ reg update 35
+Nov 19 18:43:04Nov 19 18:43:04 
+ recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04Nov 19 18:43:04 reg update 33
+ nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 36
+Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 37
+Nov 19 18:43:04 recv'd "U A 5 C 0 B 1 E 4 D 2" from C
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 38
+Nov 19 18:43:04 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 39
+Nov 19 18:43:04 recv'd "U A 0 C 5 B 6 E 1 D 3" from A
+Nov 19 18:43:04 nothing changed
+Nov 19 18:43:04 
+Nov 19 18:43:04 DVTable of B
+Nov 19 18:43:04 distance to A = 6 | nexthop : C
+Nov 19 18:43:04 distance to C = 1 | nexthop : C
+Nov 19 18:43:04 distance to B = 0 | nexthop : B
+Nov 19 18:43:04 distance to E = 5 | nexthop : C
+Nov 19 18:43:04 distance to D = 3 | nexthop : C
+Nov 19 18:43:04 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:04 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:04 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:04 
+Nov 19 18:43:04 reg update 40
+Nov 19 18:43:16 recv'd "L B 64" from 
+Nov 19 18:43:16 new between me (A) and B is now 64
+Nov 19 18:43:16 neighbor: B 
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of A
+Nov 19 18:43:16 distance to A = 0 | nexthop : A
+Nov 19 18:43:16 distance to C = 5 | nexthop : E
+Nov 19 18:43:16 distance to B = 64 | nexthop : B
+Nov 19 18:43:16 distance to E = 1 | nexthop : E
+Nov 19 18:43:16 distance to D = 3 | nexthop : E
+Nov 19 18:43:16 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:16 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:16 
+Nov 19 18:43:16 recv'd "U A 0 C 5 B 64 E 1 D 3" from A
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of B
+Nov 19 18:43:16 distance to A = 6 | nexthop : C
+Nov 19 18:43:16 distance to C = 1 | nexthop : C
+Nov 19 18:43:16 distance to B = 0 | nexthop : B
+Nov 19 18:43:16 distance to E = 5 | nexthop : C
+Nov 19 18:43:16 distance to D = 3 | nexthop : C
+Nov 19 18:43:16 A: A 0 | C 5 | B 64 | E 1 | D 3 |
+Nov 19 18:43:16 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:16 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:16 
+Nov 19 18:43:16 reg update 41
+Nov 19 18:43:16 recv'd "U A 0 C 64 B 64 E 1 D 64" from A
+Nov 19 18:43:16 nothing changed
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of E
+Nov 19 18:43:16 distance to A = 1 | nexthop : A
+Nov 19 18:43:16 distance to C = 4 | nexthop : D
+Nov 19 18:43:16 distance to B = 5 | nexthop : D
+Nov 19 18:43:16 distance to E = 0 | nexthop : E
+Nov 19 18:43:16 distance to D = 2 | nexthop : D
+Nov 19 18:43:16 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:16 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:16 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:16 
+Nov 19 18:43:16 reg update 40
+Nov 19 18:43:16 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:16 nothing changed
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of E
+Nov 19 18:43:16 distance to A = 1 | nexthop : A
+Nov 19 18:43:16 distance to C = 4 | nexthop : D
+Nov 19 18:43:16 distance to B = 5 | nexthop : D
+Nov 19 18:43:16 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:43:16 nothing changed
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of C
+Nov 19 18:43:16 distance to A = 5 | nexthop : D
+Nov 19 18:43:16 distance to C = 0 | nexthop : C
+Nov 19 18:43:16 distance to B = 1 | nexthop : B
+Nov 19 18:43:16 distance to E = 4 | nexthop : D
+Nov 19 18:43:16 distance to D = 2 | nexthop : D
+Nov 19 18:43:16 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:16 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:16 
+Nov 19 18:43:16 reg update 26
+Nov 19 18:43:16 distance to E = 0 | nexthop : E
+Nov 19 18:43:16 distance to D = 2 | nexthop : D
+Nov 19 18:43:16 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:16 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:16 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:16 
+Nov 19 18:43:16 reg update 41
+Nov 19 18:43:16 recv'd "L A 64" from 
+Nov 19 18:43:16 new between me (B) and A is now 64
+Nov 19 18:43:16 neighbor: A 
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of B
+Nov 19 18:43:16 distance to A = 64 | nexthop : A
+Nov 19 18:43:16 distance to C = 1 | nexthop : C
+Nov 19 18:43:16 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:43:16 nothing changed
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of C
+Nov 19 18:43:16 distance to A = 5 | nexthop : D
+Nov 19 18:43:16 distance to C = 0 | nexthop : C
+Nov 19 18:43:16 distance to B = 1 | nexthop : B
+Nov 19 18:43:16 distance to E = 4 | nexthop : D
+Nov 19 18:43:16 distance to D = 2 | nexthop : D
+Nov 19 18:43:16 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:16 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:16Nov 19 18:43:16 
+ distance to B = 0 | nexthop : B
+Nov 19 18:43:16Nov 19 18:43:16 reg update 27
+ distance to E = 5 | nexthop : C
+Nov 19 18:43:16 distance to D = 3 | nexthop : C
+Nov 19 18:43:16 A: A 0 | C 5 | B 64 | E 1 | D 3 |
+Nov 19 18:43:16 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:16 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:16 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:16 nothing changed
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of D
+Nov 19 18:43:16 distance to A = 3 | nexthop : E
+Nov 19 18:43:16 distance to C = 2 | nexthop : C
+Nov 19 18:43:16 distance to B = 3 | nexthop : C
+Nov 19 18:43:16 distance to E = 2 | nexthop : E
+Nov 19 18:43:16 distance to D = 0 | nexthop : D
+Nov 19 18:43:16 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:16 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:16 
+Nov 19 18:43:16 reg update 27
+Nov 19 18:43:16 
+Nov 19 18:43:16 recv'd "U A 64 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:16 
+Nov 19 18:43:16 DVTable of E
+Nov 19 18:43:16 distance to A = 1 | nexthop : A
+Nov 19 18:43:16 distance to C = 4 | nexthop : D
+Nov 19 18:43:16 distance to B = 5 | nexthop : D
+Nov 19 18:43:16 distance to E = 0 | nexthop : E
+Nov 19 18:43:16 distance to D = 2 | nexthop : D
+Nov 19 18:43:16 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:16 B: A 64 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:16 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:16 
+Nov 19 18:43:16 reg update 42
+Nov 19 18:43:23 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of A
+Nov 19 18:43:23 distance to A = 0 | nexthop : A
+Nov 19 18:43:23 distance to C = 5 | nexthop : E
+Nov 19 18:43:23 distance to B = 64 | nexthop : B
+Nov 19 18:43:23 distance to E = 1 | nexthop : E
+Nov 19 18:43:23 distance to D = 3 | nexthop : E
+Nov 19 18:43:23 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:23 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 recv'd "U A 0 C 64 B 64 E 1 D 64" from A
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of E
+Nov 19 18:43:23 distance to A = 1 | nexthop : A
+Nov 19 18:43:23 distance to C = 4 | nexthop : D
+Nov 19 18:43:23 distance to B = 5 | nexthop : D
+Nov 19 18:43:23 distance to E = 0 | nexthop : E
+Nov 19 18:43:23 distance to D = 2 | nexthop : D
+Nov 19 18:43:23 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:23 B: A 64 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:23 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 43
+Nov 19 18:43:23 reg update 34
+Nov 19 18:43:23 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of A
+Nov 19 18:43:23 distance to A = 0 | nexthop : A
+Nov 19 18:43:23 distance to C = 5 | nexthop : E
+Nov 19 18:43:23 distance to B = 64 | nexthop : B
+Nov 19 18:43:23 distance to E = 1 | nexthop : E
+Nov 19 18:43:23 distance to D = 3 | nexthop : E
+Nov 19 18:43:23 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:23 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 35
+Nov 19 18:43:23 recv'd "U A 64 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of A
+Nov 19 18:43:23 distance to A = 0 | nexthop : A
+Nov 19 18:43:23 distance to C = 5 | nexthop : E
+Nov 19 18:43:23 distance to B = 6 | nexthop : E
+Nov 19 18:43:23 distance to E = 1 | nexthop : E
+Nov 19 18:43:23 distance to D = 3 | nexthop : E
+Nov 19 18:43:23 B: A 64 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:23 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 36
+Nov 19 18:43:23 recv'd "U A 0 C 5 B 6 E 1 D 3" from A
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of B
+Nov 19 18:43:23 distance to A = 6 | nexthop : C
+Nov 19 18:43:23 distance to C = 1 | nexthop : C
+Nov 19 18:43:23 distance to B = 0 | nexthop : B
+Nov 19 18:43:23 distance to E = 5 | nexthop : C
+Nov 19 18:43:23 distance to D = 3 | nexthop : C
+Nov 19 18:43:23 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:23 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:23 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 42
+Nov 19 18:43:23 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of B
+Nov 19 18:43:23Nov 19 18:43:23 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of C
+Nov 19 18:43:23 distance to A = 5 | nexthop : D
+Nov 19 18:43:23 distance to C = 0 | nexthop : C
+Nov 19 18:43:23 distance to B = 1 | nexthop : B
+Nov 19 18:43:23 distance to E = 4 | nexthop : D
+Nov 19 18:43:23 distance to D = 2 | nexthop : D
+Nov 19 18:43:23 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:23 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 28
+Nov 19 18:43:23 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of E
+Nov 19 18:43:23 distance to A = 1 | nexthop : A
+Nov 19 18:43:23 distance to C = 4 | nexthop : D
+Nov 19 18:43:23 distance to B = 5 | nexthop : D
+Nov 19 18:43:23 distance to E = 0 | nexthop : E
+Nov 19 18:43:23 distance to D = 2 | nexthop : D
+Nov 19 18:43:23 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:23 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:23 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 44
+Nov 19 18:43:23 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of D
+Nov 19 18:43:23 distance to A = 3 | nexthop : E
+Nov 19 18:43:23 distance to C = 2 | nexthop : C
+Nov 19 18:43:23 distance to B = 3 | nexthop : C
+Nov 19 18:43:23 distance to E = 2 | nexthop : E
+Nov 19 18:43:23 distance to D = 0 | nexthop : D
+Nov 19 18:43:23 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:23 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 28
+ distance to A = 6 | nexthop : C
+Nov 19 18:43:23 distance to C = 1 | nexthop : C
+Nov 19 18:43:23 distance to B = 0 | nexthop : B
+Nov 19 18:43:23 distance to E = 5 | nexthop : C
+Nov 19 18:43:23 distance to D = 3 | nexthop : C
+Nov 19 18:43:23 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:23 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:23 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 43
+Nov 19 18:43:23 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of B
+Nov 19 18:43:23 distance to A = 6 | nexthop : C
+Nov 19 18:43:23 recv'd "U A 0 C 64 B 64 E 1 D 64" from A
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of E
+Nov 19 18:43:23 distance to A = 1 | nexthop : A
+Nov 19 18:43:23 distance to C = 4 | nexthop : D
+Nov 19 18:43:23 distance to B = 5 | nexthop : D
+Nov 19 18:43:23 distance to E = 0 | nexthop : E
+Nov 19 18:43:23 distance to D = 2 | nexthop : D
+Nov 19 18:43:23 A: A 0 | C 64 | B 64 | E 1 | D 64 |
+Nov 19 18:43:23 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:23 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 45
+Nov 19 18:43:23 distance to C = 1 | nexthop : C
+Nov 19 18:43:23 distance to B = 0 | nexthop : B
+Nov 19 18:43:23 distance to E = 5 | nexthop : C
+Nov 19 18:43:23 distance to D = 3 | nexthop : C
+Nov 19 18:43:23 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:23 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:23Nov 19 18:43:23 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+ E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23Nov 19 18:43:23 
+ 
+Nov 19 18:43:23 reg update 44
+Nov 19 18:43:23Nov 19 18:43:23 recv'd "U A 0 C 5 B 6 E 1 D 3" from A
+ DVTable of A
+Nov 19 18:43:23Nov 19 18:43:23 nothing changed
+ distance to A = 0 | nexthop : A
+Nov 19 18:43:23Nov 19 18:43:23 
+ distance to C = 5 | nexthop : E
+Nov 19 18:43:23Nov 19 18:43:23 DVTable of B
+ distance to B = 6 | nexthop : E
+Nov 19 18:43:23 distance to A = 6 | nexthop : C
+Nov 19 18:43:23Nov 19 18:43:23 distance to C = 1 | nexthop : C
+Nov 19 18:43:23 distance to B = 0 | nexthop : B
+ distance to E = 1 | nexthop : E
+Nov 19 18:43:23Nov 19 18:43:23 distance to E = 5 | nexthop : C
+ distance to D = 3 | nexthop : E
+Nov 19 18:43:23 distance to D = 3 | nexthop : C
+Nov 19 18:43:23 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:23 A: A 0 | C 5 | B 6 | E 1 | D 3 |
+Nov 19 18:43:23 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:23Nov 19 18:43:23 
+ E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23Nov 19 18:43:23 reg update 37
+ 
+Nov 19 18:43:23Nov 19 18:43:23 recv'd "U A 1 C 4 B 5 E 0 D 2" from E
+ reg update 45
+Nov 19 18:43:23 nothing changed
+Nov 19 18:43:23 
+Nov 19 18:43:23 DVTable of A
+Nov 19 18:43:23 distance to A = 0 | nexthop : A
+Nov 19 18:43:23 distance to C = 5 | nexthop : E
+Nov 19 18:43:23 distance to B = 6 | nexthop : E
+Nov 19 18:43:23 distance to E = 1 | nexthop : E
+Nov 19 18:43:23 distance to D = 3 | nexthop : E
+Nov 19 18:43:23 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:23 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:23 
+Nov 19 18:43:23 reg update 38
+Nov 19 18:43:29 recv'd "L B 1" from 
+Nov 19 18:43:29 new between me (A) and B is now 1
+Nov 19 18:43:29 neighbor: B 
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of A
+Nov 19 18:43:29 distance to A = 0 | nexthop : A
+Nov 19 18:43:29 distance to C = 5 | nexthop : E
+Nov 19 18:43:29 distance to B = 1 | nexthop : B
+Nov 19 18:43:29 distance to E = 1 | nexthop : E
+Nov 19 18:43:29 distance to D = 3 | nexthop : E
+Nov 19 18:43:29 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:29 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 recv'd "U A 0 C 5 B 1 E 1 D 3" from A
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of B
+Nov 19 18:43:29 distance to A = 6 | nexthop : C
+Nov 19 18:43:29 distance to C = 1 | nexthop : C
+Nov 19 18:43:29 distance to B = 0 | nexthop : B
+Nov 19 18:43:29 distance to E = 5 | nexthop : C
+Nov 19 18:43:29 distance to D = 3 | nexthop : C
+Nov 19 18:43:29 A: A 0 | C 5 | B 1 | E 1 | D 3 |
+Nov 19 18:43:29 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:29 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 46
+Nov 19 18:43:29 recv'd "U A 0 C 64 B 1 E 1 D 64" from A
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of E
+Nov 19 18:43:29 distance to A = 1 | nexthop : A
+Nov 19 18:43:29 distance to C = 4 | nexthop : D
+Nov 19 18:43:29 distance to B = 2 | nexthop : A
+Nov 19 18:43:29 distance to E = 0 | nexthop : E
+Nov 19 18:43:29 distance to D = 2 | nexthop : D
+Nov 19 18:43:29 A: A 0 | C 64 | B 1 | E 1 | D 64 |
+Nov 19 18:43:29 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:29 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 46
+Nov 19 18:43:29 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:29 nothing changed
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of E
+Nov 19 18:43:29 distance to A = 1 | nexthop : A
+Nov 19 18:43:29 distance to C = 4 | nexthop : D
+Nov 19 18:43:29 distance to B = 2 | nexthop : A
+Nov 19 18:43:29 distance to E = 0 | nexthop : E
+Nov 19 18:43:29 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+Nov 19 18:43:29 nothing changed
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of C
+Nov 19 18:43:29 distance to A = 5 | nexthop : D
+Nov 19 18:43:29 distance to C = 0 | nexthop : C
+Nov 19 18:43:29 distance to B = 1 | nexthop : B
+Nov 19 18:43:29 distance to E = 4 | nexthop : D
+Nov 19 18:43:29 distance to D = 2 | nexthop : D
+Nov 19 18:43:29 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:29 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 29
+Nov 19 18:43:29 recv'd "U A 1 C 64 B 2 E 0 D 2" from E
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of D
+Nov 19 18:43:29 distance to A = 3 | nexthop : E
+Nov 19 18:43:29 distance to C = 2 | nexthop : C
+Nov 19 18:43:29 distance to B = 3 | nexthop : C
+Nov 19 18:43:29 distance to E = 2 | nexthop : E
+Nov 19 18:43:29 distance to D = 0 | nexthop : D
+Nov 19 18:43:29 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:29 E: A 1 | C 64 | B 2 | E 0 | D 2 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 29
+Nov 19 18:43:29 recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:43:29 nothing changed
+Nov 19 18:43:29 recv'd "U A 1 C 4 B 2 E 0 D 2" from E
+Nov 19 18:43:29 
+Nov 19 18:43:29Nov 19 18:43:29 DVTable of B
+Nov 19 18:43:29 distance to A = 6 | nexthop : C
+Nov 19 18:43:29 distance to C = 1 | nexthop : C
+ 
+Nov 19 18:43:29Nov 19 18:43:29 distance to B = 0 | nexthop : B
+ DVTable of C
+Nov 19 18:43:29Nov 19 18:43:29 distance to E = 5 | nexthop : C
+ distance to A = 5 | nexthop : D
+Nov 19 18:43:29Nov 19 18:43:29 distance to D = 3 | nexthop : C
+ distance to C = 0 | nexthop : C
+Nov 19 18:43:29Nov 19 18:43:29Nov 19 18:43:29 A: A 0 | C 5 | B 1 | E 1 | D 3 |
+ distance to D = 2 | nexthop : D
+ distance to B = 1 | nexthop : B
+Nov 19 18:43:29Nov 19 18:43:29Nov 19 18:43:29 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+ A: A 0 | C 64 | B 1 | E 1 | D 64 |
+ distance to E = 4 | nexthop : D
+Nov 19 18:43:29Nov 19 18:43:29 E: A 1 | C 4 | B 2 | E 0 | D 2 |
+Nov 19 18:43:29 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+ distance to D = 2 | nexthop : D
+Nov 19 18:43:29 
+Nov 19 18:43:29Nov 19 18:43:29 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:29 reg update 47
+Nov 19 18:43:29Nov 19 18:43:29 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ 
+Nov 19 18:43:29Nov 19 18:43:29 
+ reg update 47
+Nov 19 18:43:29Nov 19 18:43:29 reg update 30
+ recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:29Nov 19 18:43:29 recv'd "U A 64 C 1 B 0 E 64 D 64" from B
+ nothing changed
+Nov 19 18:43:29Nov 19 18:43:29 nothing changed
+ 
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of E
+Nov 19 18:43:29 DVTable of C
+Nov 19 18:43:29Nov 19 18:43:29 distance to A = 1 | nexthop : A
+ distance to A = 5 | nexthop : D
+Nov 19 18:43:29Nov 19 18:43:29 distance to C = 4 | nexthop : D
+ distance to C = 0 | nexthop : C
+Nov 19 18:43:29Nov 19 18:43:29 distance to B = 2 | nexthop : A
+ distance to B = 1 | nexthop : B
+Nov 19 18:43:29Nov 19 18:43:29 distance to E = 0 | nexthop : E
+ distance to E = 4 | nexthop : D
+Nov 19 18:43:29Nov 19 18:43:29 distance to D = 2 | nexthop : D
+ distance to D = 2 | nexthop : D
+Nov 19 18:43:29 B: A 64 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:29 A: A 0 | C 64 | B 1 | E 1 | D 64 |
+Nov 19 18:43:29 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:29Nov 19 18:43:29 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+ 
+Nov 19 18:43:29Nov 19 18:43:29 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+ reg update 31
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 48
+Nov 19 18:43:29 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:43:29 nothing changed
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of E
+Nov 19 18:43:29 distance to A = 1 | nexthop : A
+Nov 19 18:43:29 distance to C = 4 | nexthop : D
+Nov 19 18:43:29 distance to B = 2 | nexthop : A
+Nov 19 18:43:29 distance to E = 0 | nexthop : E
+Nov 19 18:43:29 distance to D = 2 | nexthop : D
+Nov 19 18:43:29 A: A 0 | C 64 | B 1 | E 1 | D 64 |
+Nov 19 18:43:29 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:29 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 49
+Nov 19 18:43:29 recv'd "L A 1" from 
+Nov 19 18:43:29 new between me (B) and A is now 1
+Nov 19 18:43:29 neighbor: A 
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of B
+Nov 19 18:43:29 distance to A = 1 | nexthop : A
+Nov 19 18:43:29 distance to C = 1 | nexthop : C
+Nov 19 18:43:29 distance to B = 0 | nexthop : B
+Nov 19 18:43:29 distance to E = 5 | nexthop : C
+Nov 19 18:43:29 distance to D = 3 | nexthop : C
+Nov 19 18:43:29 A: A 0 | C 5 | B 1 | E 1 | D 3 |
+Nov 19 18:43:29 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:29 E: A 1 | C 4 | B 2 | E 0 | D 2 |
+Nov 19 18:43:29 recv'd "U A 2 C 0 B 1 E 64 D 2" from C
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of D
+Nov 19 18:43:29 distance to A = 3 | nexthop : E
+Nov 19 18:43:29 distance to C = 2 | nexthop : C
+Nov 19 18:43:29 distance to B = 3 | nexthop : C
+Nov 19 18:43:29 distance to E = 2 | nexthop : E
+Nov 19 18:43:29 distance to D = 0 | nexthop : D
+Nov 19 18:43:29 C: A 2 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:29 E: A 1 | C 64 | B 2 | E 0 | D 2 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 30
+Nov 19 18:43:29 
+Nov 19 18:43:29 recv'd "U A 1 C 1 B 0 E 64 D 64" from B
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of C
+Nov 19 18:43:29 distance to A = 2 | nexthop : B
+Nov 19 18:43:29 distance to C = 0 | nexthop : C
+Nov 19 18:43:29 distance to B = 1 | nexthop : B
+Nov 19 18:43:29 distance to E = 4 | nexthop : D
+Nov 19 18:43:29 distance to D = 2 | nexthop : D
+Nov 19 18:43:29 B: A 1 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:29 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 32
+Nov 19 18:43:29 recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:43:29Nov 19 18:43:29 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of D
+Nov 19 18:43:29 distance to A = 3 | nexthop : E
+Nov 19 18:43:29 distance to C = 2 | nexthop : C
+Nov 19 18:43:29 distance to B = 3 | nexthop : C
+Nov 19 18:43:29 distance to E = 2 | nexthop : E
+Nov 19 18:43:29 distance to D = 0 | nexthop : D
+Nov 19 18:43:29 C: A 2 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:29 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 31
+ nothing changed
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of C
+Nov 19 18:43:29 distance to A = 2 | nexthop : B
+Nov 19 18:43:29Nov 19 18:43:29 distance to C = 0 | nexthop : C
+ recv'd "U A 1 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:29Nov 19 18:43:29 distance to B = 1 | nexthop : B
+ 
+Nov 19 18:43:29Nov 19 18:43:29 distance to E = 4 | nexthop : D
+ DVTable of E
+Nov 19 18:43:29 distance to D = 2 | nexthop : D
+Nov 19 18:43:29Nov 19 18:43:29 distance to A = 1 | nexthop : A
+ B: A 1 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:29 distance to C = 3 | nexthop : A
+Nov 19 18:43:29 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:29Nov 19 18:43:29 distance to B = 2 | nexthop : A
+ 
+Nov 19 18:43:29Nov 19 18:43:29 distance to E = 0 | nexthop : E
+ reg update 33
+Nov 19 18:43:29 distance to D = 2 | nexthop : D
+Nov 19 18:43:29 recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:43:29Nov 19 18:43:29 A: A 0 | C 64 | B 1 | E 1 | D 64 |
+ nothing changed
+Nov 19 18:43:29Nov 19 18:43:29 
+ B: A 1 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:29Nov 19 18:43:29 DVTable of C
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:29Nov 19 18:43:29 distance to A = 2 | nexthop : B
+ 
+Nov 19 18:43:29Nov 19 18:43:29 distance to C = 0 | nexthop : C
+ reg update 50
+Nov 19 18:43:29 distance to B = 1 | nexthop : B
+Nov 19 18:43:29Nov 19 18:43:29 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+ distance to E = 4 | nexthop : D
+Nov 19 18:43:29 nothing changed
+Nov 19 18:43:29Nov 19 18:43:29 distance to D = 2 | nexthop : D
+ 
+Nov 19 18:43:29 B: A 1 | C 1 | B 0 | E 64 | D 64 |
+Nov 19 18:43:29 DVTable of E
+Nov 19 18:43:29 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:29Nov 19 18:43:29 
+ distance to A = 1 | nexthop : A
+Nov 19 18:43:29Nov 19 18:43:29 reg update 34
+ distance to C = 3 | nexthop : A
+Nov 19 18:43:29 distance to B = 2 | nexthop : A
+Nov 19 18:43:29 distance to E = 0 | nexthop : E
+Nov 19 18:43:29 distance to D = 2 | nexthop : D
+Nov 19 18:43:29 A: A 0 | C 64 | B 1 | E 1 | D 64 |
+Nov 19 18:43:29 B: A 1 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:29 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 51
+Nov 19 18:43:29 recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:43:29 nothing changed
+Nov 19 18:43:29 
+Nov 19 18:43:29 DVTable of E
+Nov 19 18:43:29 distance to A = 1 | nexthop : A
+Nov 19 18:43:29 distance to C = 3 | nexthop : A
+Nov 19 18:43:29 distance to B = 2 | nexthop : A
+Nov 19 18:43:29 distance to E = 0 | nexthop : E
+Nov 19 18:43:29 distance to D = 2 | nexthop : D
+Nov 19 18:43:29 A: A 0 | C 64 | B 1 | E 1 | D 64 |
+Nov 19 18:43:29 B: A 1 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:29 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:29 
+Nov 19 18:43:29 reg update 52
+Nov 19 18:43:36 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of A
+Nov 19 18:43:36 distance to A = 0 | nexthop : A
+Nov 19 18:43:36 distance to C = 5 | nexthop : E
+Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 0 C 2 B 1 E 1 D 64" from A
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of E
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+Nov 19 18:43:36 distance to C = 3 | nexthop : A
+Nov 19 18:43:36 distance to B = 2 | nexthop : A
+Nov 19 18:43:36 distance to E = 0 | nexthop : E
+Nov 19 18:43:36 distance to D = 2 | nexthop : D
+Nov 19 18:43:36 A: A 0 | C 2 | B 1 | E 1 | D 64 |
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:36 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 53
+Nov 19 18:43:36 recv'd "U A 0 C 2 B 1 E 1 D 64" from A
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of E
+Nov 19 18:43:36 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of D
+Nov 19 18:43:36 distance to A = 3 | nexthop : E
+Nov 19 18:43:36 distance to C = 2 | nexthop : C
+Nov 19 18:43:36 distance to B = 3 | nexthop : C
+Nov 19 18:43:36 distance to E = 2 | nexthop : E
+Nov 19 18:43:36 distance to D = 0 | nexthop : D
+Nov 19 18:43:36 C: A 2 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:36 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 32
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+Nov 19 18:43:36 distance to C = 3 | nexthop : A
+Nov 19 18:43:36 distance to B = 2 | nexthop : A
+ distance to B = 1 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36 distance to E = 0 | nexthop : E
+ distance to E = 1 | nexthop : E
+Nov 19 18:43:36Nov 19 18:43:36 distance to D = 3 | nexthop : E
+ distance to D = 2 | nexthop : D
+Nov 19 18:43:36Nov 19 18:43:36 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+ A: A 0 | C 2 | B 1 | E 1 | D 64 |
+Nov 19 18:43:36Nov 19 18:43:36 E: A 1 | C 4 | B 5 | E 0 | D 2 |
+ B: A 1 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:36Nov 19 18:43:36 
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:36Nov 19 18:43:36 reg update 39
+ 
+Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 1 C 4 B 64 E 0 D 2" from E
+ reg update 54
+Nov 19 18:43:36Nov 19 18:43:36 
+ recv'd "U A 0 C 2 B 1 E 1 D 64" from A
+Nov 19 18:43:36 DVTable of A
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 distance to A = 0 | nexthop : A
+Nov 19 18:43:36 
+Nov 19 18:43:36Nov 19 18:43:36 distance to C = 2 | nexthop : B
+ DVTable of E
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36 distance to C = 3 | nexthop : A
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 distance to B = 2 | nexthop : A
+Nov 19 18:43:36 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:36 distance to E = 0 | nexthop : E
+Nov 19 18:43:36 E: A 1 | C 4 | B 64 | E 0 | D 2 |
+Nov 19 18:43:36 distance to D = 2 | nexthop : D
+Nov 19 18:43:36 
+Nov 19 18:43:36 A: A 0 | C 2 | B 1 | E 1 | D 64 |
+Nov 19 18:43:36 reg update 40
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:36 recv'd "U A 6 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:36 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36Nov 19 18:43:36 
+ 
+Nov 19 18:43:36Nov 19 18:43:36 reg update 55
+ DVTable of A
+Nov 19 18:43:36 distance to A = 0 | nexthop : A
+Nov 19 18:43:36 distance to C = 2 | nexthop : B
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:36 E: A 1 | C 4 | B 64 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 41
+Nov 19 18:43:36 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of A
+Nov 19 18:43:36 distance to A = 0 | nexthop : A
+Nov 19 18:43:36 distance to C = 2 | nexthop : B
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 B: A 6 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:36 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 42
+Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 5 D 3" from B
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of A
+Nov 19 18:43:36 distance to A = 0 | nexthop : A
+Nov 19 18:43:36 distance to C = 2 | nexthop : B
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:36 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 43
+Nov 19 18:43:36 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of A
+Nov 19 18:43:36 distance to A = 0 | nexthop : A
+Nov 19 18:43:36 distance to C = 2 | nexthop : B
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 5 | D 3 |
+Nov 19 18:43:36 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 44
+Nov 19 18:43:36 recv'd "U A 0 C 64 B 1 E 1 D 3" from A
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of B
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+Nov 19 18:43:36 distance to C = 1 | nexthop : C
+Nov 19 18:43:36 distance to B = 0 | nexthop : B
+Nov 19 18:43:36 distance to E = 2 | nexthop : A
+Nov 19 18:43:36 distance to D = 3 | nexthop : C
+Nov 19 18:43:36 A: A 0 | C 64 | B 1 | E 1 | D 3 |
+Nov 19 18:43:36 C: A 5 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:36 E: A 1 | C 4 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 2 D 64" from B
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of C
+Nov 19 18:43:36 distance to A = 2 | nexthop : B
+Nov 19 18:43:36 distance to C = 0 | nexthop : C
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to E = 3 | nexthop : B
+Nov 19 18:43:36 distance to D = 2 | nexthop : D
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 2 | D 64 |
+Nov 19 18:43:36 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 35
+Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 2 D 64" from B
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of C
+Nov 19 18:43:36 distance to A = 2 | nexthop : B
+Nov 19 18:43:36 distance to C = 0 | nexthop : C
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to E = 3 | nexthop : B
+Nov 19 18:43:36 distance to D = 2 | nexthop : D
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 2 | D 64 |
+Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 2 C 0 B 1 E 3 D 2" from C
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of D
+Nov 19 18:43:36 distance to A = 3 | nexthop : E
+Nov 19 18:43:36 distance to C = 2 | nexthop : C
+Nov 19 18:43:36 distance to B = 3 | nexthop : C
+Nov 19 18:43:36 distance to E = 2 | nexthop : E
+Nov 19 18:43:36 distance to D = 0 | nexthop : D
+Nov 19 18:43:36 C: A 2 | C 0 | B 1 | E 3 | D 2 |
+Nov 19 18:43:36 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 33
+Nov 19 18:43:36 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of D
+Nov 19 18:43:36 distance to A = 3 | nexthop : E
+Nov 19 18:43:36 distance to C = 2 | nexthop : C
+Nov 19 18:43:36 distance to B = 3 | nexthop : C
+Nov 19 18:43:36 distance to E = 2 | nexthop : E
+Nov 19 18:43:36 distance to D = 0 | nexthop : D
+Nov 19 18:43:36 C: A 2 | C 0 | B 1 | E 3 | D 2 |
+Nov 19 18:43:36 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 34
+ D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ reg update 48
+Nov 19 18:43:36Nov 19 18:43:36 
+ recv'd "U A 64 C 0 B 1 E 4 D 2" from C
+Nov 19 18:43:36Nov 19 18:43:36 reg update 36
+ 
+Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 2 D 64" from B
+ DVTable of B
+Nov 19 18:43:36Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+Nov 19 18:43:36 
+Nov 19 18:43:36 distance to C = 1 | nexthop : C
+Nov 19 18:43:36 DVTable of C
+Nov 19 18:43:36 distance to B = 0 | nexthop : B
+Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 2 D 3" from B
+ distance to A = 2 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36 distance to E = 2 | nexthop : A
+Nov 19 18:43:36 
+ distance to C = 0 | nexthop : C
+Nov 19 18:43:36Nov 19 18:43:36 distance to D = 3 | nexthop : C
+ DVTable of E
+Nov 19 18:43:36 A: A 0 | C 64 | B 1 | E 1 | D 3 |
+Nov 19 18:43:36Nov 19 18:43:36 distance to B = 1 | nexthop : B
+ distance to A = 1 | nexthop : A
+Nov 19 18:43:36 C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:36Nov 19 18:43:36 distance to E = 3 | nexthop : B
+ distance to C = 3 | nexthop : A
+Nov 19 18:43:36 E: A 1 | C 4 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36Nov 19 18:43:36 distance to D = 2 | nexthop : D
+Nov 19 18:43:36 distance to B = 2 | nexthop : A
+ 
+Nov 19 18:43:36Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 2 | D 64 |
+Nov 19 18:43:36 distance to E = 0 | nexthop : E
+ reg update 49
+Nov 19 18:43:36 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:36Nov 19 18:43:36 distance to D = 2 | nexthop : D
+Nov 19 18:43:36 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+ 
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 
+ A: A 0 | C 2 | B 1 | E 1 | D 64 |
+ reg update 37
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 2 | D 3 |
+ recv'd "U A 3 C 2 B 64 E 2 D 0" from D
+Nov 19 18:43:36 DVTable of B
+Nov 19 18:43:36 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+Nov 19 18:43:36 
+Nov 19 18:43:36 
+ distance to C = 1 | nexthop : C
+Nov 19 18:43:36Nov 19 18:43:36 reg update 56
+Nov 19 18:43:36 DVTable of C
+ distance to B = 0 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36 distance to A = 2 | nexthop : B
+ recv'd "U A 64 C 2 B 3 E 2 D 0" from D
+Nov 19 18:43:36 distance to E = 2 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36 distance to C = 0 | nexthop : C
+ nothing changed
+Nov 19 18:43:36 distance to D = 3 | nexthop : C
+Nov 19 18:43:36Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 
+Nov 19 18:43:36 A: A 0 | C 64 | B 1 | E 1 | D 3 |
+Nov 19 18:43:36 distance to E = 3 | nexthop : B
+ DVTable of E
+Nov 19 18:43:36 C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:36Nov 19 18:43:36 distance to D = 2 | nexthop : D
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+ E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 2 | D 64 |
+Nov 19 18:43:36 distance to C = 3 | nexthop : A
+Nov 19 18:43:36 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 distance to B = 2 | nexthop : A
+ 
+Nov 19 18:43:36Nov 19 18:43:36 reg update 50
+Nov 19 18:43:36 distance to E = 0 | nexthop : E
+ reg update 38
+Nov 19 18:43:36Nov 19 18:43:36 distance to D = 2 | nexthop : D
+ recv'd "U A 1 C 1 B 0 E 2 D 64" from B
+Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 0 C 64 B 1 E 1 D 3" from A
+Nov 19 18:43:36 A: A 0 | C 2 | B 1 | E 1 | D 64 |
+ nothing changed
+Nov 19 18:43:36Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 2 | D 3 |
+ 
+Nov 19 18:43:36 
+Nov 19 18:43:36Nov 19 18:43:36 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+ DVTable of C
+Nov 19 18:43:36 DVTable of B
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 
+ distance to A = 2 | nexthop : B
+ distance to A = 1 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to C = 0 | nexthop : C
+ reg update 57
+ distance to C = 1 | nexthop : C
+Nov 19 18:43:36Nov 19 18:43:36 distance to B = 1 | nexthop : B
+ distance to B = 0 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to E = 3 | nexthop : B
+ recv'd "U A 1 C 1 B 0 E 2 D 3" from B
+ distance to E = 2 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to D = 2 | nexthop : D
+ nothing changed
+Nov 19 18:43:36Nov 19 18:43:36 
+ B: A 1 | C 1 | B 0 | E 2 | D 64 |
+ distance to D = 3 | nexthop : C
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+ DVTable of E
+ A: A 0 | C 64 | B 1 | E 1 | D 3 |
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 
+ distance to A = 1 | nexthop : A
+ C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 reg update 39
+ distance to C = 3 | nexthop : A
+ E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36Nov 19 18:43:36 distance to B = 2 | nexthop : A
+ 
+Nov 19 18:43:36Nov 19 18:43:36 reg update 51
+ distance to E = 0 | nexthop : E
+Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+ distance to D = 2 | nexthop : D
+Nov 19 18:43:36Nov 19 18:43:36 A: A 0 | C 2 | B 1 | E 1 | D 64 |
+ nothing changed
+Nov 19 18:43:36Nov 19 18:43:36 
+ B: A 1 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:36Nov 19 18:43:36 DVTable of B
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:36Nov 19 18:43:36 distance to A = 1 | nexthop : A
+ 
+Nov 19 18:43:36Nov 19 18:43:36 distance to C = 1 | nexthop : C
+ reg update 58
+Nov 19 18:43:36 distance to B = 0 | nexthop : B
+Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 2 D 3" from B
+Nov 19 18:43:36 distance to E = 2 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36 nothing changed
+ distance to D = 3 | nexthop : C
+Nov 19 18:43:36Nov 19 18:43:36 
+ A: A 0 | C 64 | B 1 | E 1 | D 3 |
+Nov 19 18:43:36Nov 19 18:43:36 DVTable of E
+ C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to A = 1 | nexthop : A
+ E: A 1 | C 3 | B 2 | E 0 | D 2 |
+ recv'd "U A 1 C 1 B 0 E 64 D 3" from B
+Nov 19 18:43:36Nov 19 18:43:36 
+ 
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 reg update 52
+ DVTable of A
+ distance to C = 3 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 0 C 64 B 1 E 1 D 3" from A
+ distance to A = 0 | nexthop : A
+ distance to B = 2 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 nothing changed
+ distance to E = 0 | nexthop : E
+Nov 19 18:43:36Nov 19 18:43:36 
+ distance to D = 2 | nexthop : D
+ distance to C = 2 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36 DVTable of B
+Nov 19 18:43:36 A: A 0 | C 2 | B 1 | E 1 | D 64 |
+ distance to B = 1 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36 distance to A = 1 | nexthop : A
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36 distance to C = 1 | nexthop : C
+Nov 19 18:43:36 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 distance to B = 0 | nexthop : B
+Nov 19 18:43:36 
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 64 | D 3 |
+ distance to E = 2 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36 reg update 59
+Nov 19 18:43:36 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:36 distance to D = 3 | nexthop : C
+Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 2 D 3" from B
+ 
+Nov 19 18:43:36 A: A 0 | C 64 | B 1 | E 1 | D 3 |
+Nov 19 18:43:36Nov 19 18:43:36 C: A 64 | C 0 | B 1 | E 4 | D 2 |
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 reg update 45
+Nov 19 18:43:36 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36 
+ recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:36 
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 DVTable of E
+ nothing changed
+ reg update 53
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 
+ distance to A = 1 | nexthop : A
+ recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to C = 3 | nexthop : A
+ 
+ DVTable of A
+Nov 19 18:43:36Nov 19 18:43:36 DVTable of B
+ distance to A = 0 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36 distance to B = 2 | nexthop : A
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+ distance to C = 2 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36 distance to E = 0 | nexthop : E
+Nov 19 18:43:36 distance to C = 1 | nexthop : C
+ distance to B = 1 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36 distance to B = 0 | nexthop : B
+ distance to D = 2 | nexthop : D
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36Nov 19 18:43:36 distance to E = 2 | nexthop : A
+Nov 19 18:43:36 A: A 0 | C 2 | B 1 | E 1 | D 64 |
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 distance to D = 3 | nexthop : C
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:36 A: A 0 | C 64 | B 1 | E 1 | D 3 |
+Nov 19 18:43:36 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:36 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:36Nov 19 18:43:36 
+ 
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+ reg update 60
+ reg update 46
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 
+ recv'd "U A 0 C 2 B 1 E 1 D 64" from A
+ recv'd "U A 1 C 1 B 0 E 64 D 3" from B
+Nov 19 18:43:36Nov 19 18:43:36 reg update 54
+Nov 19 18:43:36 nothing changed
+ nothing changed
+Nov 19 18:43:36Nov 19 18:43:36 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:36 
+ 
+Nov 19 18:43:36Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 DVTable of E
+Nov 19 18:43:36 DVTable of A
+ 
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to A = 0 | nexthop : A
+ DVTable of B
+ distance to A = 1 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36 distance to C = 2 | nexthop : B
+ distance to A = 1 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to C = 3 | nexthop : A
+ distance to B = 1 | nexthop : B
+ distance to C = 1 | nexthop : C
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to B = 2 | nexthop : A
+ distance to E = 1 | nexthop : E
+ distance to B = 0 | nexthop : B
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to E = 0 | nexthop : E
+ distance to D = 3 | nexthop : E
+ distance to E = 2 | nexthop : A
+Nov 19 18:43:36Nov 19 18:43:36 distance to D = 2 | nexthop : D
+ B: A 1 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 distance to D = 3 | nexthop : C
+ E: A 1 | C 64 | B 64 | E 0 | D 2 |
+ A: A 0 | C 2 | B 1 | E 1 | D 64 |
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 A: A 0 | C 64 | B 1 | E 1 | D 3 |
+ 
+ B: A 1 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:36Nov 19 18:43:36Nov 19 18:43:36 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ reg update 47
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:36Nov 19 18:43:36 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+ 
+Nov 19 18:43:36Nov 19 18:43:36 
+ reg update 61
+Nov 19 18:43:36 reg update 55
+Nov 19 18:43:36 recv'd "U A 0 C 64 B 1 E 1 D 3" from A
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of B
+Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 64 D 3" from B
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of A
+Nov 19 18:43:36 distance to A = 0 | nexthop : A
+Nov 19 18:43:36 distance to C = 2 | nexthop : B
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:36 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 48
+Nov 19 18:43:36 recv'd "U A 1 C 1 B 0 E 64 D 3" from B
+Nov 19 18:43:36 nothing changed
+Nov 19 18:43:36 
+Nov 19 18:43:36 DVTable of A
+Nov 19 18:43:36 distance to A = 0 | nexthop : A
+Nov 19 18:43:36 distance to C = 2 | nexthop : B
+Nov 19 18:43:36 distance to B = 1 | nexthop : B
+Nov 19 18:43:36 distance to E = 1 | nexthop : E
+Nov 19 18:43:36 distance to D = 3 | nexthop : E
+Nov 19 18:43:36 B: A 1 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:36 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 49
+Nov 19 18:43:36 distance to A = 1 | nexthop : A
+Nov 19 18:43:36 distance to C = 1 | nexthop : C
+Nov 19 18:43:36 distance to B = 0 | nexthop : B
+Nov 19 18:43:36 distance to E = 2 | nexthop : A
+Nov 19 18:43:36 distance to D = 3 | nexthop : C
+Nov 19 18:43:36 A: A 0 | C 64 | B 1 | E 1 | D 3 |
+Nov 19 18:43:36 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:36 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:36 
+Nov 19 18:43:36 reg update 56
+Nov 19 18:43:42 recv'd "L B 4" from 
+Nov 19 18:43:42 new between me (A) and B is now 4
+Nov 19 18:43:42 neighbor: B 
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of A
+Nov 19 18:43:42 distance to A = 0 | nexthop : A
+Nov 19 18:43:42 distance to C = 2 | nexthop : B
+Nov 19 18:43:42 distance to B = 4 | nexthop : B
+Nov 19 18:43:42 distance to E = 1 | nexthop : E
+Nov 19 18:43:42 distance to D = 3 | nexthop : E
+Nov 19 18:43:42 B: A 1 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:42 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:42 
+Nov 19 18:43:42 recv'd "U A 0 C 64 B 4 E 1 D 3" from A
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of B
+Nov 19 18:43:42 distance to A = 1 | nexthop : A
+Nov 19 18:43:42 distance to C = 1 | nexthop : C
+Nov 19 18:43:42 distance to B = 0 | nexthop : B
+Nov 19 18:43:42 distance to E = 2 | nexthop : A
+Nov 19 18:43:42 distance to D = 3 | nexthop : C
+Nov 19 18:43:42 A: A 0 | C 64 | B 4 | E 1 | D 3 |
+Nov 19 18:43:42 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:42 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:42 
+Nov 19 18:43:42 reg update 57
+Nov 19 18:43:42 recv'd "U A 0 C 2 B 4 E 1 D 64" from A
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of E
+Nov 19 18:43:42 distance to A = 1 | nexthop : A
+Nov 19 18:43:42 distance to C = 3 | nexthop : A
+Nov 19 18:43:42 distance to B = 2 | nexthop : A
+Nov 19 18:43:42 distance to E = 0 | nexthop : E
+Nov 19 18:43:42 distance to D = 2 | nexthop : D
+Nov 19 18:43:42 A: A 0 | C 2 | B 4 | E 1 | D 64 |
+Nov 19 18:43:42 B: A 1 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:42 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:42 
+Nov 19 18:43:42 reg update 62
+Nov 19 18:43:42 recv'd "U A 1 C 1 B 0 E 2 D 3" from B
+Nov 19 18:43:42 nothing changed
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of E
+Nov 19 18:43:42 distance to A = 1 | nexthop : A
+Nov 19 18:43:42 distance to C = 3 | nexthop : A
+Nov 19 18:43:42 recv'd "U A 1 C 1 B 0 E 2 D 64" from B
+Nov 19 18:43:42 nothing changed
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of C
+Nov 19 18:43:42 distance to A = 2 | nexthop : B
+Nov 19 18:43:42 distance to C = 0 | nexthop : C
+Nov 19 18:43:42 distance to B = 1 | nexthop : B
+Nov 19 18:43:42 distance to E = 3 | nexthop : B
+Nov 19 18:43:42 distance to D = 2 | nexthop : D
+Nov 19 18:43:42 B: A 1 | C 1 | B 0 | E 2 | D 64 |
+Nov 19 18:43:42 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:42 
+Nov 19 18:43:42 reg update 40
+Nov 19 18:43:42 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:42 nothing changed
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of D
+Nov 19 18:43:42 distance to A = 3 | nexthop : E
+Nov 19 18:43:42 distance to C = 2 | nexthop : C
+Nov 19 18:43:42 distance to B = 3 | nexthop : C
+Nov 19 18:43:42 distance to E = 2 | nexthop : E
+Nov 19 18:43:42 distance to D = 0 | nexthop : D
+Nov 19 18:43:42 C: A 2 | C 0 | B 1 | E 3 | D 2 |
+Nov 19 18:43:42 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:42 
+Nov 19 18:43:42 reg update 35
+Nov 19 18:43:42 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:42 nothing changed
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of B
+Nov 19 18:43:42 distance to A = 1 | nexthop : A
+Nov 19 18:43:42 distance to C = 1 | nexthop : C
+Nov 19 18:43:42Nov 19 18:43:42 distance to B = 0 | nexthop : B
+ distance to B = 2 | nexthop : A
+Nov 19 18:43:42 distance to E = 2 | nexthop : A
+Nov 19 18:43:42Nov 19 18:43:42 distance to E = 0 | nexthop : E
+ distance to D = 3 | nexthop : C
+Nov 19 18:43:42 distance to D = 2 | nexthop : D
+Nov 19 18:43:42Nov 19 18:43:42 A: A 0 | C 64 | B 4 | E 1 | D 3 |
+ A: A 0 | C 2 | B 4 | E 1 | D 64 |
+Nov 19 18:43:42Nov 19 18:43:42 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ B: A 1 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:42Nov 19 18:43:42 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:42Nov 19 18:43:42 
+ 
+Nov 19 18:43:42Nov 19 18:43:42 reg update 58
+ reg update 63
+Nov 19 18:43:42 recv'd "U A 4 C 1 B 0 E 2 D 64" from B
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of C
+Nov 19 18:43:42 distance to A = 2 | nexthop : B
+Nov 19 18:43:42 distance to C = 0 | nexthop : C
+Nov 19 18:43:42 distance to B = 1 | nexthop : B
+Nov 19 18:43:42 distance to E = 3 | nexthop : B
+Nov 19 18:43:42 distance to D = 2 | nexthop : D
+Nov 19 18:43:42 B: A 4 | C 1 | B 0 | E 2 | D 64 |
+Nov 19 18:43:42 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:42 
+Nov 19 18:43:42 reg update 41
+Nov 19 18:43:42 recv'd "U A 2 C 0 B 1 E 3 D 2" from C
+Nov 19 18:43:42 nothing changed
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of D
+Nov 19 18:43:42 distance to A = 3 | nexthop : E
+Nov 19 18:43:42 distance to C = 2 | nexthop : C
+Nov 19 18:43:42 distance to B = 3 | nexthop : C
+Nov 19 18:43:42 distance to E = 2 | nexthop : E
+Nov 19 18:43:42 distance to D = 0 | nexthop : D
+Nov 19 18:43:42 C: A 2 | C 0 | B 1 | E 3 | D 2 |
+Nov 19 18:43:42 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:42 
+Nov 19 18:43:42 reg update 36
+Nov 19 18:43:42 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:42 nothing changed
+Nov 19 18:43:42 
+Nov 19 18:43:42 DVTable of D
+Nov 19 18:43:42Nov 19 18:43:42Nov 19 18:43:42 recv'd "L A 4" from 
+ distance to A = 3 | nexthop : E
+ recv'd "U A 4 C 1 B 0 E 2 D 3" from B
+Nov 19 18:43:42Nov 19 18:43:42Nov 19 18:43:42 new between me (B) and A is now 4
+ distance to C = 2 | nexthop : C
+ 
+Nov 19 18:43:42Nov 19 18:43:42Nov 19 18:43:42 distance to B = 3 | nexthop : C
+ neighbor: A 
+ DVTable of E
+Nov 19 18:43:42Nov 19 18:43:42 
+ distance to E = 2 | nexthop : E
+Nov 19 18:43:42Nov 19 18:43:42Nov 19 18:43:42 DVTable of B
+ distance to D = 0 | nexthop : D
+ distance to A = 1 | nexthop : A
+Nov 19 18:43:42Nov 19 18:43:42Nov 19 18:43:42 distance to A = 4 | nexthop : A
+ C: A 2 | C 0 | B 1 | E 3 | D 2 |
+ distance to C = 3 | nexthop : A
+Nov 19 18:43:42Nov 19 18:43:42 distance to C = 1 | nexthop : C
+Nov 19 18:43:42 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+ distance to B = 2 | nexthop : A
+Nov 19 18:43:42 
+Nov 19 18:43:42Nov 19 18:43:42 distance to B = 0 | nexthop : B
+Nov 19 18:43:42 distance to E = 0 | nexthop : E
+ reg update 37
+Nov 19 18:43:42Nov 19 18:43:42 distance to D = 2 | nexthop : D
+ distance to E = 2 | nexthop : A
+Nov 19 18:43:42 A: A 0 | C 2 | B 4 | E 1 | D 64 |
+Nov 19 18:43:42 distance to D = 3 | nexthop : C
+Nov 19 18:43:42 B: A 4 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:42 A: A 0 | C 64 | B 4 | E 1 | D 3 |
+Nov 19 18:43:42Nov 19 18:43:42 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+ C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:42Nov 19 18:43:42 
+ E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:42Nov 19 18:43:42 reg update 64
+ 
+Nov 19 18:43:49 recv'd "U A 1 C 1 B 0 E 64 D 3" from B
+Nov 19 18:43:49 nothing changed
+Nov 19 18:43:49 
+Nov 19 18:43:49 DVTable of A
+Nov 19 18:43:49 distance to A = 0 | nexthop : A
+Nov 19 18:43:49 distance to C = 2 | nexthop : B
+Nov 19 18:43:49 distance to B = 4 | nexthop : B
+Nov 19 18:43:49 distance to E = 1 | nexthop : E
+Nov 19 18:43:49 distance to D = 3 | nexthop : E
+Nov 19 18:43:49 recv'd "U A 0 C 2 B 4 E 1 D 64" from A
+Nov 19 18:43:49 nothing changed
+Nov 19 18:43:49 
+Nov 19 18:43:49 DVTable of E
+Nov 19 18:43:49 distance to A = 1 | nexthop : A
+Nov 19 18:43:49 distance to C = 3 | nexthop : A
+Nov 19 18:43:49 distance to B = 2 | nexthop : A
+Nov 19 18:43:49 distance to E = 0 | nexthop : E
+Nov 19 18:43:49 distance to D = 2 | nexthop : D
+Nov 19 18:43:49 A: A 0 | C 2 | B 4 | E 1 | D 64 |
+Nov 19 18:43:49 B: A 4 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:49 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:49 
+Nov 19 18:43:49 reg update 65
+Nov 19 18:43:49 B: A 1 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:49 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:49 
+Nov 19 18:43:49 reg update 50
+Nov 19 18:43:49 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:49 nothing changed
+Nov 19 18:43:49 
+Nov 19 18:43:49 DVTable of A
+Nov 19 18:43:49 distance to A = 0 | nexthop : A
+Nov 19 18:43:49 distance to C = 2 | nexthop : B
+Nov 19 18:43:49 distance to B = 4 | nexthop : B
+Nov 19 18:43:49 distance to E = 1 | nexthop : E
+Nov 19 18:43:49 distance to D = 3 | nexthop : E
+Nov 19 18:43:49 B: A 1 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:49 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:49 
+Nov 19 18:43:49 reg update 51
+Nov 19 18:43:49 recv'd "U A 4 C 1 B 0 E 64 D 3" from B
+Nov 19 18:43:49 
+Nov 19 18:43:49 DVTable of A
+Nov 19 18:43:49 distance to A = 0 | nexthop : A
+Nov 19 18:43:49 distance to C = 2 | nexthop : B
+Nov 19 18:43:49 distance to B = 4 | nexthop : B
+Nov 19 18:43:49 distance to E = 1 | nexthop : E
+Nov 19 18:43:49 distance to D = 3 | nexthop : E
+Nov 19 18:43:49 B: A 4 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:49 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:49 
+Nov 19 18:43:49 reg update 52
+Nov 19 18:43:49 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:43:49 nothing changed
+Nov 19 18:43:49 
+Nov 19 18:43:49 DVTable of A
+Nov 19 18:43:49 distance to A = 0 | nexthop : A
+Nov 19 18:43:49 distance to C = 2 | nexthop : B
+Nov 19 18:43:49 distance to B = 4 | nexthop : B
+Nov 19 18:43:49 distance to E = 1 | nexthop : E
+Nov 19 18:43:49 distance to D = 3 | nexthop : E
+Nov 19 18:43:49 B: A 4 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:49 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:49 
+Nov 19 18:43:49 reg update 53
+Nov 19 18:43:49 recv'd "U A 0 C 64 B 4 E 1 D 3" from A
+Nov 19 18:43:49 nothing changed
+Nov 19 18:43:49 
+Nov 19 18:43:49 DVTable of B
+Nov 19 18:43:49 distance to A = 4 | nexthop : A
+Nov 19 18:43:49 distance to C = 1 | nexthop : C
+Nov 19 18:43:49 distance to B = 0 | nexthop : B
+Nov 19 18:43:49 distance to E = 2 | nexthop : A
+Nov 19 18:43:49 distance to D = 3 | nexthop : C
+Nov 19 18:43:49 A: A 0 | C 64 | B 4 | E 1 | D 3 |
+Nov 19 18:43:49 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:49 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:49 
+Nov 19 18:43:49 reg update 59
+Nov 19 18:43:49 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:43:49 nothing changed
+Nov 19 18:43:49 
+Nov 19 18:43:49 DVTable of B
+Nov 19 18:43:49 distance to A = 4 | nexthop : A
+Nov 19 18:43:49 distance to C = 1 | nexthop : C
+Nov 19 18:43:49 distance to B = 0 | nexthop : B
+Nov 19 18:43:49 distance to E = 2 | nexthop : A
+Nov 19 18:43:49 distance to D = 3 | nexthop : C
+Nov 19 18:43:49 A: A 0 | C 64 | B 4 | E 1 | D 3 |
+Nov 19 18:43:49 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:49 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:49 
+Nov 19 18:43:49 reg update 60
+Nov 19 18:43:49 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:49 nothing changed
+Nov 19 18:43:49 
+Nov 19 18:43:49 DVTable of B
+Nov 19 18:43:49 distance to A = 4 | nexthop : A
+Nov 19 18:43:49 distance to C = 1 | nexthop : C
+Nov 19 18:43:49 distance to B = 0 | nexthop : B
+Nov 19 18:43:49 distance to E = 2 | nexthop : A
+Nov 19 18:43:49 distance to D = 3 | nexthop : C
+Nov 19 18:43:49 A: A 0 | C 64 | B 4 | E 1 | D 3 |
+Nov 19 18:43:49 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:49 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:49 
+Nov 19 18:43:49 reg update 61
+Nov 19 18:43:57 recv'd "L B 7" from 
+Nov 19 18:43:57 new between me (A) and B is now 7
+Nov 19 18:43:57 neighbor: B 
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of A
+Nov 19 18:43:57 distance to A = 0 | nexthop : A
+Nov 19 18:43:57 distance to C = 2 | nexthop : B
+Nov 19 18:43:57 distance to B = 7 | nexthop : B
+Nov 19 18:43:57 distance to E = 1 | nexthop : E
+Nov 19 18:43:57 distance to D = 3 | nexthop : E
+Nov 19 18:43:57 B: A 4 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:43:57 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 recv'd "U A 0 C 64 B 7 E 1 D 3" from A
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of B
+Nov 19 18:43:57 distance to A = 3 | nexthop : A
+Nov 19 18:43:57 distance to C = 1 | nexthop : C
+Nov 19 18:43:57 distance to B = 0 | nexthop : B
+Nov 19 18:43:57 distance to E = 2 | nexthop : A
+Nov 19 18:43:57 distance to D = 3 | nexthop : C
+Nov 19 18:43:57 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:43:57 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 62
+Nov 19 18:43:57 recv'd "U A 0 C 2 B 7 E 1 D 64" from A
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of E
+Nov 19 18:43:57 distance to A = 1 | nexthop : A
+Nov 19 18:43:57 distance to C = 3 | nexthop : A
+Nov 19 18:43:57 distance to B = 2 | nexthop : A
+Nov 19 18:43:57 distance to E = 0 | nexthop : E
+Nov 19 18:43:57 distance to D = 2 | nexthop : D
+Nov 19 18:43:57 A: A 0 | C 2 | B 7 | E 1 | D 64 |
+Nov 19 18:43:57 B: A 4 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:57 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 66
+Nov 19 18:43:57 recv'd "U A 3 C 1 B 0 E 2 D 3" from B
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of E
+Nov 19 18:43:57 distance to A = 1 | nexthop : A
+Nov 19 18:43:57 distance to C = 3 | nexthop : A
+Nov 19 18:43:57 distance to B = 2 | nexthop : A
+Nov 19 18:43:57 recv'd "U A 3 C 1 B 0 E 2 D 64" from B
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of C
+Nov 19 18:43:57 distance to A = 2 | nexthop : B
+Nov 19 18:43:57 distance to C = 0 | nexthop : C
+Nov 19 18:43:57 distance to B = 1 | nexthop : B
+Nov 19 18:43:57 distance to E = 3 | nexthop : B
+Nov 19 18:43:57 distance to D = 2 | nexthop : D
+Nov 19 18:43:57 B: A 3 | C 1 | B 0 | E 2 | D 64 |
+Nov 19 18:43:57 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 42
+Nov 19 18:43:57 recv'd "U A 2 C 0 B 1 E 3 D 2" from C
+Nov 19 18:43:57 nothing changed
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of D
+Nov 19 18:43:57 distance to A = 3 | nexthop : E
+Nov 19 18:43:57 distance to C = 2 | nexthop : C
+Nov 19 18:43:57 distance to B = 3 | nexthop : C
+Nov 19 18:43:57 distance to E = 2 | nexthop : E
+Nov 19 18:43:57 distance to D = 0 | nexthop : D
+Nov 19 18:43:57 C: A 2 | C 0 | B 1 | E 3 | D 2 |
+Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 38
+Nov 19 18:43:57 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:57 nothing changed
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of D
+Nov 19 18:43:57 distance to A = 3 | nexthop : E
+Nov 19 18:43:57 distance to C = 2 | nexthop : C
+Nov 19 18:43:57 distance to B = 3 | nexthop : C
+Nov 19 18:43:57 distance to E = 2 | nexthop : E
+Nov 19 18:43:57 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:43:57 nothing changed
+Nov 19 18:43:57Nov 19 18:43:57 distance to E = 0 | nexthop : E
+ 
+Nov 19 18:43:57Nov 19 18:43:57Nov 19 18:43:57 distance to D = 0 | nexthop : D
+ DVTable of B
+ distance to D = 2 | nexthop : D
+Nov 19 18:43:57Nov 19 18:43:57Nov 19 18:43:57 C: A 2 | C 0 | B 1 | E 3 | D 2 |
+ distance to A = 3 | nexthop : A
+ A: A 0 | C 2 | B 7 | E 1 | D 64 |
+Nov 19 18:43:57Nov 19 18:43:57Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+ distance to C = 1 | nexthop : C
+ B: A 3 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:57Nov 19 18:43:57Nov 19 18:43:57 distance to B = 0 | nexthop : B
+ 
+ D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:57Nov 19 18:43:57Nov 19 18:43:57 distance to E = 2 | nexthop : A
+ reg update 39
+ 
+Nov 19 18:43:57Nov 19 18:43:57 distance to D = 3 | nexthop : C
+Nov 19 18:43:57 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+ reg update 67
+Nov 19 18:43:57Nov 19 18:43:57 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+ nothing changed
+Nov 19 18:43:57Nov 19 18:43:57 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+ 
+Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57Nov 19 18:43:57 DVTable of D
+ 
+Nov 19 18:43:57Nov 19 18:43:57 distance to A = 3 | nexthop : E
+ reg update 63
+Nov 19 18:43:57Nov 19 18:43:57 distance to C = 2 | nexthop : C
+ recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:57Nov 19 18:43:57 distance to B = 3 | nexthop : C
+ nothing changed
+Nov 19 18:43:57Nov 19 18:43:57 distance to E = 2 | nexthop : E
+ 
+Nov 19 18:43:57Nov 19 18:43:57 DVTable of B
+ distance to D = 0 | nexthop : D
+Nov 19 18:43:57Nov 19 18:43:57 distance to A = 3 | nexthop : A
+ C: A 2 | C 0 | B 1 | E 3 | D 2 |
+Nov 19 18:43:57Nov 19 18:43:57 distance to C = 1 | nexthop : C
+ E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57 distance to B = 0 | nexthop : B
+Nov 19 18:43:57 
+Nov 19 18:43:57 distance to E = 2 | nexthop : A
+Nov 19 18:43:57 reg update 40
+Nov 19 18:43:57 distance to D = 3 | nexthop : C
+Nov 19 18:43:57 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:43:57 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 64
+Nov 19 18:43:57 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:57 nothing changed
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of B
+Nov 19 18:43:57 distance to A = 3 | nexthop : A
+Nov 19 18:43:57 distance to C = 1 | nexthop : C
+Nov 19 18:43:57 distance to B = 0 | nexthop : B
+Nov 19 18:43:57 distance to E = 2 | nexthop : A
+Nov 19 18:43:57 distance to D = 3 | nexthop : C
+Nov 19 18:43:57 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:43:57 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 65
+Nov 19 18:43:57 recv'd "U A 7 C 1 B 0 E 2 D 64" from B
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of C
+Nov 19 18:43:57 distance to A = 2 | nexthop : B
+Nov 19 18:43:57 distance to C = 0 | nexthop : C
+Nov 19 18:43:57 distance to B = 1 | nexthop : B
+Nov 19 18:43:57 distance to E = 3 | nexthop : B
+Nov 19 18:43:57 distance to D = 2 | nexthop : D
+Nov 19 18:43:57 B: A 7 | C 1 | B 0 | E 2 | D 64 |
+Nov 19 18:43:57 D: A 3 | C 2 | B 64 | E 2 | D 0 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 43
+Nov 19 18:43:57 recv'd "U A 2 C 0 B 1 E 3 D 2" from C
+Nov 19 18:43:57 nothing changed
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of D
+Nov 19 18:43:57 distance to A = 3 | nexthop : E
+Nov 19 18:43:57 distance to C = 2 | nexthop : C
+Nov 19 18:43:57 distance to B = 3 | nexthop : C
+Nov 19 18:43:57 distance to E = 2 | nexthop : E
+Nov 19 18:43:57 distance to D = 0 | nexthop : D
+Nov 19 18:43:57 C: A 2 | C 0 | B 1 | E 3 | D 2 |
+Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 41
+Nov 19 18:43:57 recv'd "U A 7 C 1 B 0 E 2 D 3" from B
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of E
+Nov 19 18:43:57 distance to A = 1 | nexthop : A
+Nov 19 18:43:57 distance to C = 3 | nexthop : A
+Nov 19 18:43:57 distance to B = 2 | nexthop : A
+Nov 19 18:43:57 distance to E = 0 | nexthop : E
+Nov 19 18:43:57 distance to D = 2 | nexthop : D
+Nov 19 18:43:57 A: A 0 | C 2 | B 7 | E 1 | D 64 |
+Nov 19 18:43:57 B: A 7 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:43:57 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 68
+Nov 19 18:43:57 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:43:57 nothing changed
+Nov 19 18:43:57Nov 19 18:43:57 recv'd "L A 7" from 
+ 
+Nov 19 18:43:57Nov 19 18:43:57 new between me (B) and A is now 7
+Nov 19 18:43:57 neighbor: A 
+Nov 19 18:43:57 
+Nov 19 18:43:57 DVTable of B
+Nov 19 18:43:57 distance to A = 7 | nexthop : A
+ DVTable of D
+Nov 19 18:43:57 distance to A = 3 | nexthop : E
+Nov 19 18:43:57 distance to C = 2 | nexthop : C
+Nov 19 18:43:57 distance to B = 3 | nexthop : C
+Nov 19 18:43:57 distance to E = 2 | nexthop : E
+Nov 19 18:43:57 distance to D = 0 | nexthop : D
+Nov 19 18:43:57 C: A 2 | C 0 | B 1 | E 3 | D 2 |
+Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57 
+Nov 19 18:43:57 reg update 42
+Nov 19 18:43:57 distance to C = 1 | nexthop : C
+Nov 19 18:43:57 distance to B = 0 | nexthop : B
+Nov 19 18:43:57 distance to E = 2 | nexthop : A
+Nov 19 18:43:57 distance to D = 3 | nexthop : C
+Nov 19 18:43:57 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:43:57 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:43:57 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:43:57 
+Nov 19 18:44:04 recv'd "U A 0 C 2 B 7 E 1 D 64" from A
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of E
+Nov 19 18:44:04 distance to A = 1 | nexthop : A
+Nov 19 18:44:04 distance to C = 3 | nexthop : A
+Nov 19 18:44:04 distance to B = 2 | nexthop : A
+Nov 19 18:44:04 distance to E = 0 | nexthop : E
+Nov 19 18:44:04 distance to D = 2 | nexthop : D
+Nov 19 18:44:04 A: A 0 | C 2 | B 7 | E 1 | D 64 |
+Nov 19 18:44:04 B: A 7 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:44:04 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 69
+Nov 19 18:44:04 recv'd "U A 0 C 2 B 7 E 1 D 64" from A
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of E
+Nov 19 18:44:04 distance to A = 1 | nexthop : A
+Nov 19 18:44:04 distance to C = 3 | nexthop : A
+Nov 19 18:44:04 distance to B = 2 | nexthop : A
+Nov 19 18:44:04 distance to E = 0 | nexthop : E
+Nov 19 18:44:04 distance to D = 2 | nexthop : D
+Nov 19 18:44:04 A: A 0 | C 2 | B 7 | E 1 | D 64 |
+Nov 19 18:44:04 B: A 7 | C 1 | B 0 | E 2 | D 3 |
+Nov 19 18:44:04 D: A 64 | C 2 | B 3 | E 2 | D 0 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 70
+Nov 19 18:44:04 recv'd "U A 3 C 1 B 0 E 64 D 3" from B
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of A
+Nov 19 18:44:04 distance to A = 0 | nexthop : A
+Nov 19 18:44:04 distance to C = 2 | nexthop : B
+Nov 19 18:44:04 distance to B = 7 | nexthop : B
+Nov 19 18:44:04 distance to E = 1 | nexthop : E
+Nov 19 18:44:04 distance to D = 3 | nexthop : E
+Nov 19 18:44:04 B: A 3 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:44:04 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 54
+Nov 19 18:44:04 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of A
+Nov 19 18:44:04 distance to A = 0 | nexthop : A
+Nov 19 18:44:04 distance to C = 2 | nexthop : B
+Nov 19 18:44:04 distance to B = 7 | nexthop : B
+Nov 19 18:44:04 distance to E = 1 | nexthop : E
+Nov 19 18:44:04 distance to D = 3 | nexthop : E
+Nov 19 18:44:04 B: A 3 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:44:04 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 55
+Nov 19 18:44:04 recv'd "U A 7 C 1 B 0 E 64 D 3" from B
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of A
+Nov 19 18:44:04 distance to A = 0 | nexthop : A
+Nov 19 18:44:04 distance to C = 2 | nexthop : B
+Nov 19 18:44:04 distance to B = 7 | nexthop : B
+Nov 19 18:44:04 distance to E = 1 | nexthop : E
+Nov 19 18:44:04 distance to D = 3 | nexthop : E
+Nov 19 18:44:04 B: A 7 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:44:04 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 56
+Nov 19 18:44:04 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of A
+Nov 19 18:44:04 distance to A = 0 | nexthop : A
+Nov 19 18:44:04 distance to C = 2 | nexthop : B
+Nov 19 18:44:04 distance to B = 7 | nexthop : B
+Nov 19 18:44:04 distance to E = 1 | nexthop : E
+Nov 19 18:44:04 distance to D = 3 | nexthop : E
+Nov 19 18:44:04 B: A 7 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:44:04 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 57
+Nov 19 18:44:04 recv'd "U A 1 C 64 B 64 E 0 D 2" from E
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of A
+Nov 19 18:44:04 distance to A = 0 | nexthop : A
+Nov 19 18:44:04 distance to C = 2 | nexthop : B
+Nov 19 18:44:04 distance to B = 7 | nexthop : B
+Nov 19 18:44:04 distance to E = 1 | nexthop : E
+Nov 19 18:44:04 distance to D = 3 | nexthop : E
+Nov 19 18:44:04 B: A 7 | C 1 | B 0 | E 64 | D 3 |
+Nov 19 18:44:04 E: A 1 | C 64 | B 64 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 58
+Nov 19 18:44:04 recv'd "U A 0 C 64 B 7 E 1 D 3" from A
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of B
+Nov 19 18:44:04 distance to A = 7 | nexthop : A
+Nov 19 18:44:04 distance to C = 1 | nexthop : C
+Nov 19 18:44:04 distance to B = 0 | nexthop : B
+Nov 19 18:44:04 distance to E = 2 | nexthop : A
+Nov 19 18:44:04 distance to D = 3 | nexthop : C
+Nov 19 18:44:04 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:44:04 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:44:04 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 66
+Nov 19 18:44:04 recv'd "U A 64 C 0 B 1 E 64 D 2" from C
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of B
+Nov 19 18:44:04 distance to A = 7 | nexthop : A
+Nov 19 18:44:04 distance to C = 1 | nexthop : C
+Nov 19 18:44:04 distance to B = 0 | nexthop : B
+Nov 19 18:44:04 distance to E = 2 | nexthop : A
+Nov 19 18:44:04 distance to D = 3 | nexthop : C
+Nov 19 18:44:04 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:44:04 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:44:04 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 67
+Nov 19 18:44:04 recv'd "U A 1 C 3 B 2 E 0 D 2" from E
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of B
+Nov 19 18:44:04 distance to A = 7 | nexthop : A
+Nov 19 18:44:04 distance to C = 1 | nexthop : C
+Nov 19 18:44:04 distance to B = 0 | nexthop : B
+Nov 19 18:44:04 distance to E = 2 | nexthop : A
+Nov 19 18:44:04 distance to D = 3 | nexthop : C
+Nov 19 18:44:04 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:44:04 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:44:04 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 68
+Nov 19 18:44:04 recv'd "U A 0 C 64 B 7 E 1 D 3" from A
+Nov 19 18:44:04 nothing changed
+Nov 19 18:44:04 
+Nov 19 18:44:04 DVTable of B
+Nov 19 18:44:04 distance to A = 7 | nexthop : A
+Nov 19 18:44:04 distance to C = 1 | nexthop : C
+Nov 19 18:44:04 distance to B = 0 | nexthop : B
+Nov 19 18:44:04 distance to E = 2 | nexthop : A
+Nov 19 18:44:04 distance to D = 3 | nexthop : C
+Nov 19 18:44:04 A: A 0 | C 64 | B 7 | E 1 | D 3 |
+Nov 19 18:44:04 C: A 64 | C 0 | B 1 | E 64 | D 2 |
+Nov 19 18:44:04 E: A 1 | C 3 | B 2 | E 0 | D 2 |
+Nov 19 18:44:04 
+Nov 19 18:44:04 reg update 69
